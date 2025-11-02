@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no shrink-to-fit=no">
+    <title>Irsyadut Thulab | Arhamarohimin</title>
+    <link rel="shortcut icon" href="../../assets/icon/sholawat.png" />
+    <link rel="stylesheet" href="../../assets/css/core/libs.min.css" />
+
+    <link rel="stylesheet" href="../../assets/css/hope-ui.min.css?v=2.0.0" />
+    <link rel="stylesheet" href="../../assets/css/custom.min.css?v=2.0.0" />
+    <link rel="stylesheet" href="../../assets/css/dark.min.css" />
+    <link rel="stylesheet" href="../../assets/css/customizer.min.css" />
+    <script defer src="../../assets/api/cdn.min.js"></script>
+</head>
+
+<body x-data x-init="$store.backController.init()" class="  ">
+    <div id="loading">
+        <div class="loader simple-loader">
+            <div class="loader-body"></div>
+        </div>
+    </div>
+    <aside id="body-sidebar" class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all">
+        <script type="module" src="../components/body-sidebar.js"></script>
+    </aside>
+    <main class="main-content">
+        <div id="main-cs-btn" class="position-relative iq-banner">
+            <script src="../components/main-cs-btn.js"></script>
+            <nav id="body-nav" class="nav navbar navbar-expand-lg navbar-light iq-navbar sticky-top">
+                <script type="module" src="../components/body-nav.js"></script>
+            </nav>
+            <div class="iq-navbar-header" style="height: 200px">
+                <div class="container-fluid iq-container">
+                    <div class="col-md-12">
+                        <div class="flex-wrap text-center">
+                            <div class="d-flex justify-content-center gap-2 align-items-center">
+                                <img src="../../assets/icon/sholawat.png" height="40px" alt="" />
+                                <h2 class="mx-lg-5 fs-lg-1">Sholawat </h2>
+                                <img src="../../assets/icon/sholawat.png" height="40px" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="iq-header-img">
+                    <img src="../../assets/images/banner/altie.png" alt="header"
+                        class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX" />
+                </div>
+            </div>
+            <div class="mt-n5 p-0" x-data="detailSholawat" x-init="init()">
+                <div class="col-md-12 col-lg-12">
+                    <div class="text-dark text-center card p-3">
+                        <h3 class="card-header text-center fw-bold mb-2" x-text="sholawat.nama"></h3>
+
+                        <div class="col-md-12 col-lg-12">
+                            <div class="card-body">
+                                <div class="text-center mb-4">
+                                    <!-- Arabic -->
+                                    <p class="text-center text-dark arabic-font" style="font-size: 17px;"
+                                        x-text="sholawat.arab">
+                                    </p>
+
+                                    <!-- Latin -->
+                                    <p class="mt-3 text-muted" x-text="sholawat.latin"></p>
+
+                                    <!-- Arti -->
+
+                                    <p class="text-start mt-3 " x-text="`Artinya : ${sholawat.arti}`"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer id="body-footer" class="footer">
+            <script src="../components/body-footer.js"></script>
+        </footer>
+    </main>
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('detailSholawat', () => ({
+                loading: false,
+                sholawat: {
+                    nama: '',
+                    arab: '',
+                    latin: '',
+                    arti: ''
+                },
+                async init() {
+                    const nama = new URLSearchParams(location.search).get('sholawat');
+                    await this.initSholawat(nama);
+                },
+                async initSholawat(nama) {
+                    this.loading = true;
+                    const res = await fetch(`../../assets/api/sholawat.json`);
+                    const json = await res.json();
+
+                    const found = json.find(item => item.nama === nama);
+
+                    if (found) {
+                        this.sholawat = found;
+                    } else {
+                        this.sholawat = {
+                            nama: 'Tidak ditemukan',
+                            arab: '',
+                            latin: '',
+                            arti: ''
+                        };
+                    }
+
+                    this.loading = false;
+                }
+            }));
+        });
+    </script>
+
+    <script src="../../assets/js/core/libs.min.js"></script>
+    <script src="../../assets/js/core/external.min.js"></script>
+
+    <script src="../../assets/js/hope-ui.js" defer></script>
+    <script type="module" src="../01-button-contoller.js"></script>
+</body>
+
+</html>

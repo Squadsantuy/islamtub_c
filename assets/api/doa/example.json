@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Doa Harian",
+        "data": [
+            {
+                "category": "Doa Harian",
+                "title": "Doa Bangun Tidur",
+                "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا ...",
+                "latin": "Alhamdulillahil-ladhi ahyana ...",
+                "translation": "Segala puji bagi Allah yang telah menghidupkan kami ...",
+                "notes": "",
+                "fawaid": "",
+                "source": ""
+            }
+        ]
+    },
+    {
+        "name": "Doa Pilihan",
+        "data": [
+            {
+                "category": "Doa Pilihan",
+                "title": "Doa Naik Kendaraan",
+                "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا ...",
+                "latin": "Subhanalladzi sakhkhara lana ...",
+                "translation": "Maha Suci Allah yang telah menundukkan bagi kami ...",
+                "notes": "",
+                "fawaid": "",
+                "source": ""
+            }
+        ]
+    },
+    {
+        "name": "Dzikir",
+        "data": [
+            {
+                "category": "Dzikir Pagi",
+                "title": "Dzikir Pagi Lengkap",
+                "arabic": "أَصْبَحْنَا وَأَصْبَحَ ...",
+                "latin": "Asbahna wa asbaha ...",
+                "translation": "Kami telah memasuki pagi dan ...",
+                "notes": "Baca setiap pagi setelah sholat Subuh",
+                "fawaid": "Mendapat perlindungan dan berkah pagi hari",
+                "source": "HR. Abu Dawud"
+            },
+            {
+                "category": "Dzikir Sore",
+                "title": "Dzikir Sore Lengkap",
+                "arabic": "أَمْسَيْنَا وَأَمْسَى ...",
+                "latin": "Amsayna wa amsa ...",
+                "translation": "Kami telah memasuki sore dan ...",
+                "notes": "Baca setiap sore setelah sholat Asar",
+                "fawaid": "Mendapat perlindungan dan berkah sore hari",
+                "source": "HR. Bukhari"
+            }
+        ]
+    }
+]

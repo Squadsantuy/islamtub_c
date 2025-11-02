@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no shrink-to-fit=no">
+   <title>Irsyadut Thulab | Beranda</title>
+   <meta name="description"
+      content="Website yang menyediakan konten konten islami seperti Al-quran, Sunnah Nabi, Doa Sehari Hari, dll. Dengan desain yang sederhana dan mudah dinavigasi, website ini bertujuan untuk memberikan akses yang lebih luas kepada umat Islam dalam mempelajari, memahami, dan mengamalkan ajaran Islam." />
+   <meta name="keywords" content="majmu syarif, Irsyadut Thulab, web islami, doa doa, doa sehari hari, alquran">
+   <meta name="robots" content="index, follow">
+   <link rel="icon" href="../assets/icon/logo projek.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="../assets/logo.png" />
+   <link rel="stylesheet" href="../assets/css/core/libs.min.css" />
+   <link rel="stylesheet" href="../assets/css/hope-ui.min.css?v=2.0.0" />
+   <link rel="stylesheet" href="../assets/css/custom.min.css?v=2.0.0" />
+   <link rel="stylesheet" href="../assets/css/customizer.min.css" />
+   <link rel="stylesheet" href="../assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
+   <script src="../assets/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+   <script defer src="../assets/api/cdn.min.js"></script>
+</head>
+<style>
+   .truncate-multiline {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+
+   .truncate-multiline-2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+
+   .dropdown-menu.show {
+      display: block;
+   }
+
+   .responsive-yt {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+   }
+
+   .responsive-yt iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+   }
+
+   #replay-videos {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+   }
+
+   #replay-videos::-webkit-scrollbar {
+      display: none;
+   }
+
+   #replay-videos .card {
+      flex: 0 0 auto;
+      width: 250px;
+   }
+</style>
+
+<body x-data x-init="$store.backController.init()" class="  ">
+   <div id="loading">
+      <div class="loader simple-loader">
+         <div class="loader-body"></div>
+      </div>
+   </div>
+   <aside id="body-sidebar" class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all">
+      <script type="module" src="../components/body-sidebar.js"></script>
+   </aside>
+   <main class="main-content">
+      <div id="main-cs-btn" class="position-relative iq-banner">
+         <script src="../components/main-cs-btn.js"></script>
+         <nav id="body-nav" class="nav navbar navbar-expand-lg navbar-light iq-navbar sticky-top">
+            <script type="module" src="../components/body-nav.js"></script>
+         </nav>
+         <div class="iq-navbar-header" x-data="{
+                 banners: Array.from({ length: 8 }, (_, i) => `../assets/images/banner/banner/${i + 1}.png`),
+                 hasRendered: false
+              }" x-init="
+                 $nextTick(() => {
+                    const el = document.getElementById('carouselExampleInterval');
+                    new bootstrap.Carousel(el, {
+                       interval: 3000,
+                       ride: 'carousel',
+                       pause: false
+                    });
+                    hasRendered = true;
+                 });
+              ">
+            <div class="flex-wrap text-center">
+               <div id="carouselExampleInterval" class="carousel slide" x-show="hasRendered">
+                  <div class="carousel-inner rounded shadow">
+                     <template x-for="(banner, index) in banners" :key="index">
+                        <div class="carousel-item position-relative" :class="{ 'active': index === 0 }">
+                           <img :src="banner" class="d-block w-100 position-relative" alt="...">
+                        </div>
+                     </template>
+                  </div>
+                  <!-- Prev -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                     data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                  </button>
+                  <!-- Next -->
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                     data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid px-3">
+            <div class="row card mb-0">
+               <div class="col-12">
+                  <div class="row row-cols-12">
+                     <ul class="container p-0 m-0">
+                        <li class="card card-slide mb-3">
+                           <div class="card-body  text-center">
+                              <div class="row mt-2 p-1">
+                                 <div class="col-12 mb-3 d-flex justify-content-center">
+                                    <div class="w-100 px-4 position-relative">
+                                       <div class="mb-2 d-flex justify-content-center gap-2 align-items-center">
+                                          <span class="fw-bold mx-lg-3 text-dark fs-3">بِسْمِ اللّٰهِ الرَّحْمٰنِ
+                                             الرَّحِيْمِ</span>
+                                       </div>
+                                       <div class="input-group rounded position-relative" style="width: 100%;">
+                                          <input type="search" class="form-control rounded dropdown-toggle"
+                                             id="searchInput" placeholder="Cari Al-Quran, Doa, dll..."
+                                             aria-label="Search" />
+                                          <span class="input-group-text border-0">
+                                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                stroke="#000000">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                   stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                   <path
+                                                      d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                                                      stroke="#292929" stroke-width="2" stroke-linecap="round"
+                                                      stroke-linejoin="round"></path>
+                                                </g>
+                                             </svg>
+                                          </span>
+                                          <ul class="mt-5 dropdown-menu w-100 list-page sticky-top position-absolute"
+                                             id="dropdownMenu" aria-labelledby="searchInput" x-data="loadSurat()"
+                                             x-init="fetchData()">
+                                             <script type="module"
+                                                src="./components/dashboard-component/search_page.js"></script>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/alquran.html"><img src="../assets/icon/quran.png"
+                                          height="50px" alt="" />
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold">Al-Quran</h6>
+                                    </a>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/hadist.html"><img src="../assets/icon/hadits.png"
+                                          height="50px" alt="" />
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold text-nowrap">Hadist<br>Pilihan
+                                       </h6>
+                                    </a>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/sunnah.html"><img src="../assets/icon/bulan.png"
+                                          height="50px" alt="" />
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold text-nowrap">Sunnah<br>Nabi
+                                       </h6>
+                                    </a>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/maulid.html"><img src="../assets/icon/maulid.png"
+                                          height="50px" alt="" />
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold text-nowrap">Maulid<br>Nabi
+                                       </h6>
+                                    </a>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/doa.html"><img src="../assets/icon/doa.png" height="50px"
+                                          alt="" />
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold">Doa<br>Doa</h6>
+                                    </a>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/sholawat.html">
+                                       <img src="../assets/icon/sholawat.png" alt="" height="50px">
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold text-nowrap">Sholawat</h6>
+                                    </a>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/praktek_ibadah.html">
+                                       <img src="../assets/icon/solat.png" alt="" height="50px">
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold text-nowrap">Praktek<br>Ibadah
+                                       </h6>
+                                    </a>
+                                 </div>
+                                 <div class="nav-item mb-4 col-3">
+                                    <a class="" href="../pages/jadwal_solat.html">
+                                       <img src="../assets/icon/masjid.png" alt="" height="50px">
+                                       <h6 style="font-size: 13px;" class=" mt-2 fw-bold text-nowrap">Waktu<br>Sholat
+                                       </h6>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="row">
+                     <div class="px-3">
+                        <h5 class="fw-bolder mb-2">> Kajian</h5>
+                     </div>
+                     <div class="col-12">
+                        <div id="live-videos">Sedang Mengambil Data.....</div>
+                     </div>
+                     <!-- <div class="row m-0">
+                     <div id="replay-videos" class="p-0"></div>
+                  </div> -->
+                  </div>
+                  <div class="row">
+                     <h5 class="fw-bolder mb-2 ms-2">> Sering Dibaca</h5>
+                     <div class="col-6 p-1">
+                        <div class="card">
+                           <div class="flex-wrap card-header d-flex justify-content-between align-items-center">
+                              <div class="header-title gap-2 d-flex align-items-center">
+                                 <img src="../assets/icon/doa.png" height="40px" alt="">
+                                 <h6 class="fw-bolder">Doa-Doa</h6>
+                              </div>
+                           </div>
+                           <div class="card-body m-0">
+                              <h3 class="fw-bolder text-center">Tahlil</h3>
+                              <div class="container">
+                                 <p class="fw-bold  truncate-multiline mt-3 text-center arabic-font">
+                                    إِلَى حَضْرَةِ النَّبِيِّ الْمُصْطَفَى سَيِّدِنَا مُحمَّدٍ صَلَّى اللهُ عَلَيْهِ
+                                    وَسَلَّمَ وَاٰلِهِ وَأَزْوَاجِهِ وَأَوْلَادِهِ وَذُرِّيَّاتِهِ الْفَــاتِحَةُ
+                                 </p>
+                                 <div class=" text-center">
+                                    <a href="./doa/tahlil.html" class="btn btn-sm btn-primary">Baca😊</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-6 p-1">
+                        <div class="card">
+                           <div class="flex-wrap card-header d-flex justify-content-between align-items-center">
+                              <div class="header-title gap-2 d-flex align-items-center">
+                                 <img src="../assets/icon/quran.png" height="40px" alt="">
+                                 <h6 class="fw-bolder">Al-quran</h6>
+                              </div>
+                           </div>
+                           <div class="card-body m-0">
+                              <h3 class="fw-bolder text-center">Yasin</h3>
+                              <div class="container">
+                                 <p class="fw-bold  truncate-multiline mt-3 text-center arabic-font">
+                                    يٰسۤۚ ۝١وَالْقُرْاٰنِ الْحَكِيْمِۙ۝٢ اِنَّكَ لَمِنَ الْمُرْسَلِيْنَۙ ۝٣
+                                    عَلٰى صِرَاطٍ مُّسْتَقِيْمٍۗ ۝٤ تَنْزِيْلَ الْعَزِيْزِ الرَّحِيْمِۙ لِتُنذِرَ
+                                    قَوْمًا
+                                    مَّآ أُنذِرَ ءَابَآؤُهُمْ فَهُمْ غَٰفِلُونَ۝٥
+                                 </p>
+                                 <div class=" text-center">
+                                    <a href="./alquran/detail.html?surat=36" class="btn btn-sm btn-primary">Baca😊</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12">
+                        <div class="card">
+                           <div class="flex-wrap card-header d-flex justify-content-between align-items-center">
+                              <div class="header-title gap-2 d-flex align-items-center">
+                                 <img src="../assets/icon/quran.png" height="40px" alt="">
+                                 <h6 class="fw-bolder">Al-quran</h6>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <h3 class="fw-bolder text-center">Ayat kursi</h3>
+                              <div class="container">
+                                 <p class="fw-bold  truncate-multiline mt-3 text-center arabic-font">
+                                    اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ
+                                    وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ
+                                    يَشْفَعُ
+                                    عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ
+                                    وَلَا
+                                    يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ
+                                    السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ
+                                    الْعَظِيْمُ
+                                    (٢٥٥)
+                                 </p>
+                                 <p class="fw-bold truncate-multiline mt-3 text-center long-text">
+                                    Artinya : <br> Allah, tidak ada tuhan selain Dia, Yang Mahahidup lagi terus-menerus
+                                    mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur.
+                                    Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat
+                                    memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan
+                                    mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun
+                                    dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya)
+                                    meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang
+                                    Mahatinggi lagi Mahaagung.
+                                 </p>
+                                 <div class=" text-center">
+                                    <a href="./doa/detail.html?category=Doa%20Pilihan&index=9"
+                                       class="btn btn-sm btn-primary">Baca😊</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 mb-3 bg-white">
+                        <div class="position-absolute p-2 ps-3">
+                           <svg viewBox="0 0 24 24" fill="none" height="20" width="20"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                              <g id="SVGRepo_iconCarrier">
+                                 <path
+                                    d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 </path>
+                              </g>
+                           </svg>
+                        </div>
+                        <input type="search" placeholder="Cari video" class="form-control ps-5">
+                     </div>
+                     <div id="replay-videos" class="p-0 d-flex bg-white"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer id="body-footer" class="footer">
+         <script src="../components/body-footer.js"></script>
+      </footer>
+   </main>
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         if (!localStorage.getItem('alertShown')) {
+            Swal.fire({
+               title: 'Assalamualaikum',
+               text: 'Mohon Bantu Kami Dengan Memberitahu Jika Ada Kesalahan Tulis🙏',
+               confirmButtonText: 'Lanjut Ke Aplikasi'
+            })
+         }
+      });
+      document.addEventListener('pause', function () {
+         localStorage.removeItem('alertShown');
+      });
+   </script>
+   <script>
+      document.addEventListener('alpine:init', () => {
+         Alpine.data('loadSurat', () => ({
+            listQuran: [],
+            listHadist: [],
+            listDoa: [],
+            listMix: [],
+            async fetchData() {
+               const resQuran = await fetch('../assets/api/quran.json');
+               const resHadist = await fetch('../assets/api/hadist.json');
+               const resDoa = await fetch('../assets/api/doa.json');
+               const jsonQuran = await resQuran.json();
+               const jsonHadist = await resHadist.json();
+               const jsonDoa = await resDoa.json();
+               this.listQuran = jsonQuran.data;
+               this.listHadist = jsonHadist.data;
+               this.listDoa = [];
+               jsonDoa.forEach(kategori => {
+                  kategori.data.forEach((doa, i) => {
+                     if (doa.arabic) {
+                        this.listDoa.push({
+                           title: doa.title,
+                           category: kategori.name,
+                           index: i,
+                           type: 'doa'
+                        });
+                     }
+                     else if (Array.isArray(doa.isi)) {
+                        this.listDoa.push({
+                           title: doa.title,
+                           category: kategori.name,
+                           index: i,
+                           type: 'dzikir'
+                        });
+                     }
+                  });
+               });
+               this.listMix = [
+                  ...this.listQuran.map(item => ({ ...item, type: 'quran' })),
+                  ...this.listHadist.map(item => ({ ...item, type: 'hadist' })),
+                  ...this.listDoa.map(item => ({ ...item, type: 'doa' }))
+               ];
+               this.render();
+            },
+            render() {
+               const target = document.querySelector('.list-page');
+               target.innerHTML = '';
+               this.listMix.forEach(item => {
+                  if (item.type === 'quran') {
+                     target.insertAdjacentHTML('beforeend', `
+                     <li>
+                        <a href="./alquran/detail.html?surat=${item["surat-ke"]}" class="dropdown-item">
+                           <div class="p-0">
+                              <h5 class="card-header p-0" style="font-size:10px;">Al-Qur'an</h5>
+                              <div class="card-body p-0 m-0">
+                                 <h5 class="card-title" style="font-size:15px;">
+                                    ${item.name} (${item["jumlah-surat"]})
+                                 </h5>
+                                 <small><i>${item.artinya?.indonesia ?? ''}</i></small>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                  `);
+                  } else if (item.type === 'hadist') {
+                     target.insertAdjacentHTML('beforeend', `
+                     <li>
+                        <a href="./hadist/detail.html?hadist=${item.nama}" class="dropdown-item">
+                           <div class="p-0">
+                              <h5 class="card-header p-0" style="font-size:10px;">Hadist</h5>
+                              <div class="card-body p-0 m-0">
+                                 <h5 class="card-title" style="font-size:15px;">
+                                    ${item.judul}
+                                 </h5>
+                                 <small><i>${item["nama"]}</i></small>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                  `);
+                  } else if (item.type === 'doa' || item.type === 'dzikir') {
+                     target.insertAdjacentHTML('beforeend', `
+                     <li>
+                        <a href="./doa/detail.html?category=${encodeURIComponent(item.category)}&index=${item.index}" class="dropdown-item">
+                           <div class="p-0">
+                              <h5 class="card-header p-0" style="font-size:10px;">${item.type === 'dzikir' ? 'Dzikir' : 'Doa'}</h5>
+                              <div class="card-body p-0 m-0">
+                                 <h5 class="card-title" style="font-size:15px;">
+                                    ${item.title}
+                                 </h5>
+                                 <small><i>${item.category}</i></small>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                  `);
+                  }
+               });
+            }
+         }))
+      })
+   </script>
+   <script>
+      document.getElementById('searchInput').addEventListener('input', function () {
+         var searchInput = this.value.toLowerCase().trim();
+         var dropdownMenu = document.getElementById('dropdownMenu');
+         var items = dropdownMenu.getElementsByTagName('li');
+         let matchFound = false;
+         let matchCount = 0;
+         const maxVisibleItems = 6;
+         if (searchInput !== "") {
+            dropdownMenu.classList.add('show');
+            for (var i = 0; i < items.length; i++) {
+               var itemText = items[i].innerText.toLowerCase();
+               if (itemText.includes(searchInput)) {
+                  if (matchCount < maxVisibleItems) {
+                     items[i].style.display = "block";
+                     matchFound = true;
+                     matchCount++;
+                  } else {
+                     items[i].style.display = "none";
+                  }
+               } else {
+                  items[i].style.display = "none";
+               }
+            }
+            if (!matchFound) {
+               dropdownMenu.classList.remove('show');
+            }
+         } else {
+            dropdownMenu.classList.remove('show');
+         }
+      });
+      document.addEventListener('click', function (event) {
+         var isClickInside = document.getElementById('searchInput').contains(event.target);
+         if (!isClickInside) {
+            document.getElementById('dropdownMenu').classList.remove('show');
+         }
+      });
+   </script>
+   <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyaKd0AvraehVzRxiQ-8lAC9Kc1jx5jRwVFcKkN-C6DF79wF-vveTWj6StlwCfQ79If/exec";
+      const cacheKey = 'yt_live_replay';
+      const cacheExpireKey = 'yt_live_replay_expire';
+      const now = Date.now();
+      async function loadData() {
+         const cached = localStorage.getItem(cacheKey);
+         const expire = localStorage.getItem(cacheExpireKey);
+         if (cached && expire && now < parseInt(expire)) {
+            render(JSON.parse(cached));
+         } else {
+            try {
+               const res = await fetch(scriptURL);
+               const data = await res.json();
+               localStorage.setItem(cacheKey, JSON.stringify(data));
+               localStorage.setItem(cacheExpireKey, now + (60 * 60 * 1000)); // expire 1 jam
+               render(data);
+            } catch (err) {
+               document.getElementById('live-videos').innerText = '❌ Tidak dapat mengambil data,, Anda sedang Offline';
+               document.getElementById('replay-videos').innerText = '';
+               console.error(err);
+            }
+         }
+      }
+      function refreshData() {
+         localStorage.removeItem(cacheKey);
+         localStorage.removeItem(cacheExpireKey);
+         location.reload();
+      }
+      function render(data) {
+         console.log("Contoh video:", data[0]);
+         const liveContainer = document.getElementById('live-videos');
+         const replayContainer = document.getElementById('replay-videos');
+         const liveVideos = data.filter(v => v.isLive);
+         const replayVideos = data;
+         if (liveVideos.length === 0) {
+            liveContainer.innerHTML = '<div class="card text-center pt-3"><p>Kajian secara Live pada setiap malam minggu.</p><div class="px-5"><button class="btn btn-primary btn-sm text-light fw-bolder" onclick = "refreshData()" style = "margin-bottom: 1rem;" >🔄 Refresh Data</button></div></div>';
+         } else {
+            liveContainer.innerHTML = liveVideos.map(v => renderVideo(v)).join('');
+         }
+         if (replayVideos.length === 0) {
+            replayContainer.innerHTML = '<div class="card text-center pt-3"><p>Belum ada replay livestream.</p></div>';
+         } else {
+            replayContainer.innerHTML = replayVideos.map(v => renderVideo(v)).join('');
+         }
+      }
+      function formatTimeAgo(dateString) {
+         const date = new Date(dateString);
+         const now = new Date();
+         const diffMs = now - date;
+         const seconds = Math.floor(diffMs / 1000);
+         const minutes = Math.floor(seconds / 60);
+         const hours = Math.floor(minutes / 60);
+         const days = Math.floor(hours / 24);
+         if (seconds < 60) return `${seconds} detik lalu`;
+         if (minutes < 60) return `${minutes} menit lalu`;
+         if (hours < 24) return `${hours} jam lalu`;
+         if (days === 1) return `kemarin`;
+         if (days < 7) return `${days} hari lalu`;
+         // Kalau udah lewat seminggu → format tanggal
+         return date.toLocaleDateString('id-ID', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+         });
+      }
+      function renderVideo(v) {
+         return `
+            <div class="card">
+               <div class="flex-wrap card-header d-flex justify-content-between align-items-center">
+                  <div class="header-title gap-2 d-flex align-items-center">
+                     <img src="../assets/icon/live.png" height="40px" alt="">
+                     <small class="fw-bolder truncate-multiline-2">${v.title}</small>
+                  </div>
+               </div>
+               <div class="card-body">
+                  <div class="content" onclick="detailVideoById('${v.videoId}')">
+                     <img
+                     class="img-fluid mb-2 rounded"
+                     src="https://img.youtube.com/vi/${v.videoId}/hqdefault.jpg">
+                     </img>
+                     <div class="mt-2 text-start">
+                        <h6 class="truncate-multiline-2">${v.description.replace(/\n/g, '<br>')}</h6>
+                     </div>
+                     <div class="information d-flex justify-content-between mt-2">
+                        <small>${v.viewCount} x ditonton</small>
+                        <small>${formatTimeAgo(v.publishedAt)}</small>
+                     </div>
+                  </div>
+               </div>
+            </div >
+            `;
+      }
+      async function detailVideoById(videoId) {
+         let allVideos = JSON.parse(localStorage.getItem('yt_live_replay')) || [];
+         if (!allVideos.length) {
+            try {
+               const res = await fetch(scriptURL);
+               allVideos = await res.json();
+               localStorage.setItem(cacheKey, JSON.stringify(allVideos));
+            } catch (err) {
+               console.error("Gagal ambil data video:", err);
+               return;
+            }
+         }
+         const video = allVideos.find(v => v.videoId === videoId);
+         if (video) {
+            localStorage.setItem("selectedVideo", JSON.stringify(video));
+            window.location = "./stream.html";
+         }
+      }
+      function handleSearch(e) {
+         let allVideos = JSON.parse(localStorage.getItem('yt_live_replay')) || [];
+         const keyword = e.target.value.toLowerCase();
+         const filtered = allVideos.filter(v => {
+            const matchText = (v.title + " " + v.description).toLowerCase();
+            return matchText.includes(keyword);
+         });
+         const replayContainer = document.getElementById('replay-videos');
+         if (filtered.length) {
+            replayContainer.innerHTML = filtered.map(v => renderVideo(v)).join('');
+         } else {
+            replayContainer.innerHTML = '<div class="card text-center pt-3"><p>Tidak ada video yang cocok.</p></div>';
+         }
+      }
+      document.querySelector('input[placeholder="Cari video"]').addEventListener("input", handleSearch);
+      loadData();
+   </script>
+   <script src="../assets/js/core/libs.min.js"></script>
+   <script src="../assets/js/core/external.min.js"></script>
+   <script src="../assets/js/plugins/slider-tabs.js"></script>
+
+   <script src="../assets/js/hope-ui.js" defer></script>
+   <script type="module" src="./01-button-contoller.js"></script>
+</body>
+
+</html>

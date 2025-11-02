@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no shrink-to-fit=no">
+    <title>Irsyadut Thulab | Jadwal Sholat</title>
+    <link rel="shortcut icon" href="../assets/images/jadwal_salat.ico" />
+    <link rel="stylesheet" href="../assets/css/core/libs.min.css" />
+
+    <link rel="stylesheet" href="../assets/css/hope-ui.min.css" />
+    <link rel="stylesheet" href="../assets/css/custom.min.css?v=2.0.0" />
+    <link rel="stylesheet" href="../assets/css/dark.min.css" />
+    <link rel="stylesheet" href="../assets/css/customizer.min.css" />
+    <link rel="stylesheet" href="../assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <script src="../assets/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="./02-connection.js"></script>
+    <script type="module">
+        import { Geolocation } from '@capacitor/geolocation';
+        const requestPermission = async () => {
+            const permission = await Geolocation.requestPermissions();
+            console.log(permission);
+        };
+        const getCurrentPosition = async () => {
+            const coordinates = await Geolocation.getCurrentPosition();
+            console.log('Current position:', coordinates);
+        };
+        requestPermission();
+        getCurrentPosition();
+    </script>
+    <script defer src="../assets/api/cdn.min.js"></script>
+</head>
+<style>
+    .circle-container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .circle-background {
+        fill: none;
+        stroke: #f0f0f0;
+        stroke-width: 12;
+    }
+
+    .circle-foreground {
+        fill: none;
+        stroke: #0277d8;
+        stroke-width: 12;
+        stroke-linecap: round;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+        stroke-dasharray: 440;
+        stroke-dashoffset: 440;
+        transition: stroke-dashoffset 1s linear;
+        filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+    }
+
+    .countdown-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        font-weight: bold;
+        color: #212529;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .circle-container h2 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    table td,
+    table th {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    tbody td {
+        font-weight: 500;
+        color: #999999;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .countdown {
+        font-size: 20px;
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+
+<body x-data x-init="$store.backController.init()" class="  ">
+    <div id="loading">
+        <div class="loader simple-loader">
+            <div class="loader-body"></div>
+        </div>
+    </div>
+    <aside id="body-sidebar" class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all">
+        <script type="module" src="../components/body-sidebar.js"></script>
+    </aside>
+    <main class="main-content">
+        <div id="main-cs-btn" class="position-relative iq-banner">
+            <script src="../components/main-cs-btn.js"></script>
+            <nav id="body-nav" class="nav navbar navbar-expand-lg navbar-light iq-navbar sticky-top">
+                <script type="module" src="../components/body-nav.js"></script>
+            </nav>
+            <div class="iq-navbar-header" style="height: 150px;">
+                <div class="container-fluid iq-container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="flex-wrap  text-center">
+                                <div class="d-flex justify-content-center gap-2 align-items-center">
+                                    <img src="../assets/icon/masjid.png" height="40px" alt="" />
+                                    <h2 class="mx-lg-5 fs-lg-1"> Jangan Lupa Sholat </h2>
+                                    <img src="../assets/icon/masjid.png" height="40px" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="iq-header-img">
+                    <img src="../assets/images/banner/solat.jpg" alt="header"
+                        class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX" />
+                </div>
+            </div>
+        </div>
+        <div class="text-center card">
+            <div class="col-12">
+                <div class="mt-4 d-flex align-items-center justify-content-center">
+                    <h5 class="fw-bolder" id="sholat-berikutnya"></h5>
+                    <div class="circle-container">
+                        <div class="">
+                            <svg width="200" height="200">
+                                <circle class="circle-background" cx="100" cy="100" r="70" />
+                                <circle class="circle-foreground" cx="100" cy="100" r="70" />
+                            </svg>
+                        </div>
+                        <div class="countdown-text" id="countdown">00:00:00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center py-3">
+                <h1 class="text-primary fw-bold">Waktu Sholat Hari Ini</h1>
+                <p class="lead fw-bolder">Waktu sholat berdasarkan lokasi Anda</p>
+                <div class="container-fluid">
+                    <div id="waktu-sholat"></div>
+                    <div id="countdown"></div>
+                    <div id="sholat-berikutnya"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="body-footer" class="footer">
+        <script src="../components/body-footer.js"></script>
+    </footer>
+    <script>
+        if (navigator.onLine) {
+            console.log('online')
+        } else {
+            Swal.fire({
+                title: '🚨 Error 🚨',
+                text: 'Gagal mendapatkan lokasi. Pastikan Internet dan Izin Lokasi telah diaktifkan🙏😁',
+                confirmButtonText: 'Kembali'
+            });
+        }
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('./components/waktu_solat-component/service-worker.js')
+                    .then(function (registration) {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    }).catch(function (error) {
+                        console.log('ServiceWorker registration failed: ', error);
+                    });
+            });
+        }
+        async function getPrayerTimes(latitude, longitude) {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 8000); // timeout 8 detik
+            try {
+                const response = await fetch(
+                    `https://api.aladhan.com/v1/timings/${Math.floor(Date.now() / 1000)}?latitude=${latitude}&longitude=${longitude}&method=11`,
+                    { signal: controller.signal }
+                );
+                clearTimeout(timeout);
+                if (!response.ok) {
+                    Swal.fire({
+                        title: '🚨 Error 🚨',
+                        text: 'Gagal mengambil data dari API 🙏😁',
+                        confirmButtonText: 'Kembali'
+                    });
+                    return {};
+                }
+                const data = await response.json();
+                return {
+                    Subuh: data.data.timings.Fajr,
+                    Dzuhur: data.data.timings.Dhuhr,
+                    Ashar: data.data.timings.Asr,
+                    Maghrib: data.data.timings.Maghrib,
+                    Isya: data.data.timings.Isha
+                };
+            } catch (err) {
+                console.error("Prayer times error:", err);
+                Swal.fire({
+                    title: '🚨 Error 🚨',
+                    text: 'Gagal mendapatkan lokasi. Pastikan Internet dan Izin Lokasi telah diaktifkan🙏😁',
+                    confirmButtonText: 'Kembali'
+                });
+                return {};
+            }
+        }
+        let countdownInterval = null;
+        function findCurrentAndNextSholat(waktuSholat) {
+            const now = new Date();
+            const sholatTimes = Object.entries(waktuSholat).map(([sholat, waktu]) => {
+                const [h, m] = waktu.split(':').map(Number);
+                let date = new Date(now.getFullYear(), now.getMonth(), now.getDate(), h, m);
+                return { sholat, waktu, date };
+            }).sort((a, b) => a.date - b.date);
+            for (const st of sholatTimes) {
+                if (st.date > now) {
+                    return { nextSholat: st };
+                }
+            }
+            let besokSubuh = new Date(sholatTimes[0].date);
+            besokSubuh.setDate(besokSubuh.getDate() + 1);
+            return { nextSholat: { sholat: sholatTimes[0].sholat, waktu: waktuSholat[sholatTimes[0].sholat], date: besokSubuh } };
+        }
+        function getRemainingTime(targetDate) {
+            const now = new Date();
+            const difference = targetDate - now;
+            if (difference > 0) {
+                const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+                const minutes = Math.floor((difference / (1000 * 60)) % 60);
+                const seconds = Math.floor((difference / 1000) % 60);
+                return { hours, minutes, seconds, total: difference };
+            }
+            return { hours: 0, minutes: 0, seconds: 0, total: 0 };
+        }
+        function updateSholatCountdown(waktuSholat) {
+            if (countdownInterval) clearInterval(countdownInterval); // clear interval lama
+            const countdownTextElement = document.getElementById('countdown');
+            const sholatBerikutnyaElement = document.getElementById('sholat-berikutnya');
+            const circleForeground = document.querySelector('.circle-foreground');
+            const { nextSholat } = findCurrentAndNextSholat(waktuSholat);
+            sholatBerikutnyaElement.textContent = `Sholat berikutnya: ${nextSholat.sholat} - ${nextSholat.waktu}`;
+            const initialDifference = nextSholat.date - new Date();
+            countdownInterval = setInterval(() => {
+                const remainingTime = getRemainingTime(nextSholat.date);
+                const countdownStr = `${remainingTime.hours.toString().padStart(2, '0')}:${remainingTime.minutes.toString().padStart(2, '0')}:${remainingTime.seconds.toString().padStart(2, '0')}`;
+                countdownTextElement.textContent = countdownStr;
+                const percentRemaining = remainingTime.total / initialDifference;
+                const circleOffset = 408 * percentRemaining;
+                circleForeground.style.strokeDashoffset = circleOffset;
+                const remainingText = `${remainingTime.hours}j ${remainingTime.minutes}m ${remainingTime.seconds}d`;
+                if (window.updateForegroundNotif) {
+                    window.updateForegroundNotif(nextSholat, remainingText);
+                }
+                if (remainingTime.total <= 0) {
+                    clearInterval(countdownInterval);
+                    setTimeout(() => updateSholatCountdown(waktuSholat), 2000);
+                }
+            }, 1000);
+        }
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(async (position) => {
+                const latitude = position.coords.latitude;
+                const longitude = position.coords.longitude;
+                const waktuSholat = await getPrayerTimes(latitude, longitude);
+                displayPrayerTimes(waktuSholat);
+                updateSholatCountdown(waktuSholat);
+            }, (error) => {
+                console.error("Geolocation error:", error)
+                Swal.fire({
+                    title: '🚨 Error 🚨',
+                    text: 'Gagal mendapatkan lokasi. Pastikan Internet dan Izin Lokasi telah diaktifkan🙏😁',
+                    confirmButtonText: 'Kembali'
+                });
+            });
+        } else {
+            Swal.fire({
+                title: '🚨 Error 🚨',
+                text: 'Gagal mendapatkan lokasi. Pastikan Internet dan Izin Lokasi telah diaktifkan🙏😁',
+                confirmButtonText: 'Kembali'
+            });
+        }
+        function displayPrayerTimes(waktuSholat) {
+            const container = document.getElementById('waktu-sholat');
+            container.innerHTML = '';
+            for (const [sholat, waktu] of Object.entries(waktuSholat)) {
+                const sholatDiv = document.createElement('div');
+                sholatDiv.classList.add('sholat-item');
+                sholatDiv.innerHTML = `
+            <div class="rounded border-3 shadow d-flex border p-4">
+                <h5 class="fw-bold">${sholat}:</h5>
+                <h5 class="fw-bold ms-auto">${waktu}</h5>
+            </div>`;
+                container.appendChild(sholatDiv);
+            }
+        }
+    </script>
+    <script src="../assets/js/core/libs.min.js"></script>
+    <script src="../assets/js/core/external.min.js"></script>
+
+    <script src="../assets/js/hope-ui.js" defer></script>
+    <script type="module" src="./01-button-contoller.js"></script>
+</body>
+
+</html>

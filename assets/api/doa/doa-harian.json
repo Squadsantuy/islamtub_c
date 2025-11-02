@@ -1,0 +1,346 @@
+{
+    "data": [
+        {
+            "title": "Doa Sebelum Makan",
+            "arabic": "اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
+            "latin": "Alloohumma barik lanaa fiimaa razatanaa waqinaa 'adzaa bannar",
+            "translation": "Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka"
+        },
+        {
+            "title": "Doa Sesudah Makan",
+            "arabic": "اَلْحَمْدُ ِللهِ الَّذِىْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ",
+            "latin": "Alhamdu lillaahil ladzii ath'amanaa wa saqoonaa wa ja'alnaa muslimiin",
+            "translation": "Segala puji bagi Allah yang telah memberi makan kami dan minuman kami, serta menjadikan kami sebagai orang-orang islam"
+        },
+        {
+            "title": "Doa Sesudah Minum",
+            "arabic": "اَلْحَمْدُ ِللهِ الَّذِىْ جَعَلَهُ عَذْبًا فُرَاتًا بِرَحْمَتِهِ وَلَمْ يَجْعَلْهُ مِلْحًا اُجَاجًا بِذُنُوْبِنَا",
+            "latin": "Alhamdu lillaahil ladzi ja'alahuu 'adzbam furootam birohmatihii wa lamyaj'alhu milhan ujaajam bidzunuubinaa",
+            "translation": "Segala puji bagi Allah yang telah menjadikan air ini (minuman) segar dan menggiatkan dengan rahmat-Nya dan tidak menjadikan air ini (minuman) asin lagi pahit karena dosa-dosa kami"
+        },
+        {
+            "title": "Doa Ketika Makan Lupa Membaca Doa",
+            "arabic": "بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ",
+            "latin": "Bismillāhi awwalahu wa ākhirahu",
+            "translation": "Dengan menyebut nama Allah, untuk awal dan akhir (makan)."
+        },
+        {
+            "title": "Doa Sebelum Tidur",
+            "arabic": "بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ",
+            "latin": "Bismikallohumma ahya wa amuutu",
+            "translation": "Dengan menyebut nama-Mu ya Allah, aku hidup dan aku mati"
+        },
+        {
+            "title": "Doa Bangun Tidur",
+            "arabic": "اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ",
+            "latin": "Alhamdu lillahil ladzii ahyaanaa ba'da maa amaa tanaa wa ilahin nusyuuru",
+            "translation": "Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan"
+        },
+        {
+            "title": "Doa Masuk Kamar Mandi",
+            "arabic": "اَللّٰهُمَّ اِنّىْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ",
+            "latin": "Alloohumma Innii a'uudzubika minal khubutsi wal khoaaitsi",
+            "translation": "Ya Allah, aku berlindung pada-Mu dari godaan syetan laki-laki dan setan perempuan"
+        },
+        {
+            "title": "Doa Istinja",
+            "arabic": "اَللّٰهُمَّ حَسِّنْ فَرْجِىْ مِنَ الْفَوَاخِشِ وَظَهِّرْ قَلْبِيْ مِنَ النِّفَاقِ",
+            "latin": "Alloohumma thahhir qolbii minan nifaaqi wa hashshin fajrii minal fawaahisyi",
+            "translation": "Wahai Tuhanku, sucikanlah hatiku dari sifat kepura-puraan (munafiq) serta peliharalah kemaluanku dari perbuatan keji"
+        },
+        {
+            "title": "Doa Keluar Kamar Mandi",
+            "arabic": "غُفْرَانَكَ الْحَمْدُ ِللهِ الَّذِىْ اَذْهَبَ عَنّى اْلاَذَى وَعَافَانِىْ",
+            "latin": "Ghufraanaka. Alhamdulillaahil ladzii adzhaba ‘annjil adzaa wa’aafaanii",
+            "translation": "Dengan mengharap ampunanMu, segala puji milik Allah yang telah menghilangkan kotoran dari badanku dan yang telah menyejahterakan"
+        },
+        {
+            "title": "Doa Menyambut Pagi Hari",
+            "arabic": "اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ النُّشُوْرُ",
+            "latin": "Alloohumma bika ashbahnaa wa bika amsainaa wa bika nahyaa wa bika namuutu wa ilaikan nusyuuru",
+            "translation": "Ya Allah, karena Engkau kami mengalami waktu pagi dan waktu petang, dan karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali"
+        },
+        {
+            "title": "Doa Menyambut Sore Hari",
+            "arabic": "اَللّٰهُمَّ بِكَ اَمْسَيْنَا وَبِكَ اَصْبَحْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ الْمَصِيْرُ",
+            "latin": "Alloohumma bika amsainaa wa bika ashbahnaa wa bika nahyaa wa bika namuutu wa ilaikal mashiir",
+            "translation": "Ya Allah, karena Engkau kami mengalami waktu petang dan waktu pagi, karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali"
+        },
+        {
+            "title": "Doa Ketika Bercermin",
+            "arabic": "اَلْحَمْدُ ِللهِ كَمَا حَسَّنْتَ خَلْقِىْ  فَحَسِّـنْ خُلُقِىْ",
+            "latin": "Alhamdulillaahi kamaa hassanta kholqii fahassin khuluqii",
+            "translation": "Segala puji bagi Allah, baguskanlah budi pekertiku sebagaimana Engkau telah membaguskan rupa wajahku"
+        },
+        {
+            "title": "Doa Masuk Rumah",
+            "arabic": "اَللّٰهُمَّ اِنّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرَالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبّنَا تَوَكَّلْنَا",
+            "latin": "Allahumma innii as-aluka khoirol mauliji wa khoirol makhroji bismillaahi wa lajnaa wa bismillaahi khorojnaa wa'alallohi robbina tawakkalnaa",
+            "translation": "Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk, dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakkal"
+        },
+        {
+            "title": "Doa Keluar Rumah",
+            "arabic": "بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله",
+            "latin": "Bismillaahi tawakkaltu 'alalloohi laa hawlaa walaa quwwata illaa bilaahi",
+            "translation": "Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan pertolongan Allah"
+        },
+        {
+            "title": "Doa Memakai Pakaian",
+            "arabic": "بِسْمِ اللهِ اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَاهُوَ لَهُ وَاَعُوْذُبِكَ مِنْ شَرِّهِ وَشَرِّمَا هُوَلَهُ",
+            "latin": "Bismillaahi, Alloohumma innii as-aluka min khoirihi wa khoiri maa huwa lahuu wa'a'uu dzubika min syarrihi wa syarri maa huwa lahuu",
+            "translation": "Dengan nama-Mu yaa Allah akku minta kepada Engkau kebaikan pakaian ini dan kebaikan apa yang ada padanya, dan aku berlindung kepada Engkau dari kejahatan pakaian ini dan kejahatan yang ada padanya"
+        },
+        {
+            "title": "Doa Setelah Adzan",
+            "arabic": "للّٰهُمَّ رَبَّ هٰذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ سَيِّدَنَـامُحَمـَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَالدَّرَجَةَ الرَّفِيْعَةَ وَابْعَثْهُ مَقَامًا المَحْمُودًا الَّذِيْ وَعَدْتَهُ إِنَّكَ لَا تُخْلِفُ الْمِيْعَادَ",
+            "latin": "Allahumma rabbahādhihi al-da‘wati al-tāmmati wa al-ṣalāti al-qā’imah, āti sayyidanā Muḥammadan al-wasīlata wa al-faḍīlata wa al-darajata al-rafī‘ah, wab‘ath-hu maqāman maḥmūdan allaḏī wa‘adtahu, innaka lā tukhlifu al-mī‘ād.",
+            "translation": "Ya Allah Tuhan yang memiliki seruan yang sempurna dan sholat yang tetap didirikan, kurniailah Nabi Muhammad wasilah (tempat yang luhur) dan kelebihan serta kemuliaan dan derajat yang tinggidan tempatkanlah dia pada kependudukan yang terpuji yang telah Engkaujanjikan, sesungguhnya Engkau tiada menyalahi janji, wahai dzat yang paling Penyayang."
+        },
+        {
+            "title": "Doa Setelah Iqomah",
+            "arabic": "قَامَهَا اللَّهُ وَأَدَامَهَا مَا دَامَتِ السَّمَاوَاتُ وَالْأَرْض",
+            "latin": "Qāmahā Allāhu wa adāmahā mā dāmat al-samāwātu wa al-arḍ.",
+            "translation": "Semoga Allah menegakkannya dan menjaganya selama langit dan bumi masih ada."
+        },
+        {
+            "title": "Doa Memakai Pakaian Baru",
+            "arabic": "اَلْحَمْدُ لِلّٰهِ الَّذِىْ كَسَانِىْ هَذَا وَرَزَقَنِيْهِ مِنْ غَيْرِ حَوْلٍ مِنِّىْ وَلاَقُوَّةٍ",
+            "latin": "Alhamdu lillaahil ladzii kasaanii haadzaa wa rozaqoniihi min ghoiri hawlim minni wa laa quwwatin",
+            "translation": "Segala puji bagi Allah yang memberi aku pakaian ini dan memberi rizeki dengan tiada upaya dan kekuatan dariku"
+        },
+        {
+            "title": "Doa Melepas Pakaian",
+            "arabic": "بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ",
+            "latin": "Bismillaahil ladzii laa ilaaha illaa huwa",
+            "translation": "Dengan nama Allah yang tiada Tuhan selain-Nya"
+        },
+        {
+            "title": "Doa Memohon Ilmu Yang Bermanfaat",
+            "arabic": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلاً مُتَقَبَّلاً",
+            "latin": "Alloohumma innii as-aluka 'ilmaan naafi'aan wa rizqoon thoyyibaan wa 'amalaan mutaqobbalaan",
+            "translation": "Ya Allah, sesungguhnya aku mohon kepada-Mu ilmu yang berguna, rezki yang baik dan amal yang baik Diterima. (H.R. Ibnu Majah)"
+        },
+        {
+            "title": "Doa Sebelum Belajar",
+            "arabic": "يَارَبِّ زِدْنِىْ عِلْمًا وَارْزُقْنِىْ فَهْمًا",
+            "latin": "Yaa robbi zidnii 'ilman warzuqnii fahmaa",
+            "translation": "Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman"
+        },
+        {
+            "title": "Doa Sesudah Belajar",
+            "arabic": "اَللّٰهُمَّ اِنِّى اِسْتَوْدِعُكَ مَاعَلَّمْتَنِيْهِ فَارْدُدْهُ اِلَىَّ عِنْدَ حَاجَتِىْ وَلاَ تَنْسَنِيْهِ يَارَبَّ الْعَالَمِيْنَ",
+            "latin": "Allaahumma innii astaudi'uka maa 'allamtaniihi fardud-hu ilayya 'inda haajatii wa laa tansaniihi yaa robbal 'alamiin",
+            "translation": "Ya Allah, sesungguhnya aku menitipkan kepada Engkau ilmu-ilmu yang telah Engkau ajarkan kepadaku, dan kembalikanlah kepadaku sewaktu aku butuh kembali dan janganlah Engkau lupakan aku kepada ilmu itu wahai Tuhan seru sekalian alam"
+        },
+        {
+            "title": "Doa Berpergian",
+            "arabic": "اَللّٰهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِعَنَّابُعْدَهُ اَللّٰهُمَّ اَنْتَ الصَّاحِبُ فِى السَّفَرِوَالْخَلِيْفَةُفِى الْاَهْلِ",
+            "latin": "Alloohumma hawwin 'alainaa safaranaa hadzaa waatwi 'annaa bu'dahu. Alloohumma antashookhibu fiissafari walkholiifatu fiil ahli",
+            "translation": "Ya Allah, mudahkanlah kami berpergian ini, dan dekatkanlah kejauhannya. Ya Allah yang menemani dalam berpergian, dan Engkau pula yang melindungi keluarga"
+        },
+        {
+            "title": "Doa Naik Kendaraan",
+            "arabic": "سُبْحَانَ الَّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ",
+            "latin": "Subhaanalladzii sakkhara lanaa hadza wama kunna lahu muqriniin wa-inna ilaa rabbina lamunqalibuun.",
+            "translation": "Maha suci Allah yang telah menundukkan untuk kami (kendaraan) ini. padahal sebelumnya kami tidak mampu untuk menguasainya, dan hanya kepada-Mu lah kami akan kembali"
+        },
+        {
+            "title": "Doa Naik Kapal",
+            "arabic": "بِسْمِ اللهِ مَجْرَهَا وَمُرْسَهَآاِنَّ رَبِّىْ لَغَفُوْرٌرَّحِيْمٌ",
+            "latin": "Bismillaahi majrahaa wa mursaahaa inna robbii laghofuurur rohiim",
+            "translation": "Dengan nama Allah yang menjalankan kendaraan ini berlayar dan berlabuh, sesungguhnya Tuhanku benar-benar Maha Pengampun lagi Maha Penyayang"
+        },
+        {
+            "title": "Doa Ketika Sampai di Tempat Tujuan",
+            "arabic": "اَلْحَمْدُ ِللهِ الَّذِى سَلَمَنِى وَالَّذِى اَوَنِى وَالَّذِى جَمَعَ الشَّمْلَ بِ",
+            "latin": "Alhamdulillahil ladzi sallamani wal ladzi awani wal ladzi jama’asy syamla bi",
+            "translation": "Segala puji bagi Allah, yang telah menyelamatkan akau dan yang telah melindungiku dan yang mengumpulkanku dengan keluargaku"
+        },
+        {
+            "title": "Doa Ketika Menuju Masjid",
+            "arabic": "اَللّٰهُمَّ اجْعَلْ فِىْ قَلْبِى نُوْرًا وَفِى لِسَانِىْ نُوْرًا وَفِىْ بَصَرِىْ نُوْرًا وَفِىْ سَمْعِىْ نُوْرًا وَعَنْ يَسَارِىْ نُوْرًا وَعَنْ يَمِيْنِىْ نُوْرًا وَفَوْقِىْ نُوْرًا وَتَحْتِىْ نُوْرًا وَاَمَامِىْ نُوْرًا وَخَلْفِىْ نُوْرًا وَاجْعَلْ لِّىْ نُوْرًا",
+            "latin": "Alloohummaj-'al fii qolbhii nuuroon wa fii lisaanii nuuroon wa fii bashorii nuuroon wa fii sam'ii nuuroon wa'an yamiinii nuuroon wa'an yasaarii nuuroon wa fauqii nuuroo wa tahtii nuuroo wa amaamii nuuroon wa khofii nuuroon waj-'al lii nuuroon",
+            "translation": "Ya Allah, jadikanlah dihatiku cahaya, pada lisanku cahaya dipandanganku cahaya, dalam pendengaranku cahaya, dari kananku cahaya, dari kiriku cahaya, dari atasku cahaya, dari bawahku cahaya, dari depanku cahaya, belakangku cahaya, dan jadikanlah untukku cahaya (H.R. Bukhari dan Muslim)"
+        },
+        {
+            "title": "Doa Masuk Masjid",
+            "arabic": "اَللّٰهُمَّ افْتَحْ لِيْ اَبْوَابَ رَحْمَتِكَ",
+            "latin": "Allahummaf tahlii abwaaba rohmatik",
+            "translation": "Ya Allah, bukalah untukku pintu-pintu rahmat-Mu"
+        },
+        {
+            "title": "Doa Keluar Masjid",
+            "arabic": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ فَضْلِكَ",
+            "latin": "Allahumma innii asaluka min fadlik",
+            "translation": "Ya Allah, sesungguhnya aku memohon keutamaan dari-Mu"
+        },
+        {
+            "title": "Doa Sebelum Berwudhu",
+            "arabic": "بِسْمِ اللَّهِ",
+            "latin": "Bismillāh",
+            "translation": "Dengan nama Allah (aku mulai berwudhu)."
+        },
+        {
+            "title": "Doa Sesudah Berwudhu",
+            "arabic": "أشْهَدُ أنْ لا إله إِلاَّ اللَّهُ وَحْدَهُ لا شَرِيك لَهُ ، وأشْهَدُ أنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ ، اللَّهُمَّ اجْعَلْنِي مِنَ التَوَّابِينَ ، واجْعَلْني مِنَ المُتَطَهِّرِينَ ، سُبْحانَكَ اللَّهُمَّ وبِحَمْدِكَ ، أشْهَدُ أنْ لا إلهَ إِلاَّ أنْتَ ، أسْتَغْفِرُكَ وأتُوبُ إِلَيْكَ",
+            "latin": "Asyhadu an lā ilāha illāllāh waḥdahu lā syarīka lahu, wa asyhadu anna muḥammadan 'abduhu wa rasūluh. Allāhummaj'alnī minat tawwābīna waj'alnī minal mutaṭahhirīna. Subḥānakallāhumma wa biḥamdika asyhadu an lā ilāha illā anta astaghfiruka wa atūbu ilaik",
+            "translation": "Aku bersaksi bahwa tidak ada tuhan selain Allah semata yang tidak ada sekutu bagi-Nya dan aku pun bersaksi bahwa Muhammad adalah hamba sekaligus Rasul utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci. Maha Suci Engkau wahai tuhan kami dan segala puji bagi-Mu. Aku bersaksi bahwa tiada tuhan selain Engkau. Aku memohon ampunan dan bertaubat kepada-Mu."
+        },
+        {
+            "title": "Doa Akan Membaca Al-Qur'an",
+            "arabic": "اَللّٰهُمَّ افْتَحْ عَلَىَّ حِكْمَتَكَ وَانْشُرْ عَلَىَّ رَحْمَتَكَ وَذَكِّرْنِىْ مَانَسِيْتُ يَاذَاالْجَلاَلِ وَاْلاِكْرَامِ",
+            "latin": "Alloohummaftah 'alayya hikmataka wansyur 'alayya rohmataka wa dzakkirnii maanasiitu yaa dzal jalaali wal ikhroomi",
+            "translation": "Ya Allah bukakanlah hikmahMu padaku, bentangkanlah rahmatMu padaku dan ingatkanlah aku terhadap apa yang aku lupa, wahai Dzat yang memiliki keagungan dan kemuliaan"
+        },
+        {
+            "title": "Doa Setelah Membaca Al-Qur'an",
+            "arabic": "اَللّٰهُمَّ ارْحَمْنِىْ بِالْقُرْآنِ. وَاجْعَلْهُ لِىْ اِمَامًا وَنُوْرًا وَّهُدًى وَّرَحْمَةً. اَللّٰهُمَّ ذَكِّرْنِىْ مِنْهُ مَانَسِيْتُ وَعَلِّمْنِىْ مِنْهُ مَاجَهِلْتُ. وَارْزُقْنِىْ تِلاَ وَتَهُ آنَآءَ اللَّيْلِ وَاَطْرَافَ النَّهَارٍ. وَاجْعَلْهُ لِىْ حُجَّةً يَارَبَّ الْعَالَمِيْنَ",
+            "latin": "Allahummarhamnii bil qur'aani. waj'alhu lii imaaman wa nuuran wa hudan wa rohman. Allahumma dzakkirnii minhu maa nasiitu wa'allimnii minhu maa jahiltu. wazuqnii tilaa watahu aanaa-al laili wa athroofan nahaari. waj'alhu lii hujjatan yaa robbal 'aalamiina.",
+            "translation": "Ya Allah, rahmatilah aku dengan Al-Quran yang agung, jadikanlah ia bagiku ikutan cahaya petunjuk rahmat. Ya Allah, ingatkanlah apa yang telah aku lupa dan ajarkan kepadaku apa yang tidak aku ketahui darinya, anugerahkanlah padaku kesempatan membacanya pada sebagian malam dan siang, jadikanlah ia hujjah yang kuat bagiku, wahai Tuhan seru sekalian alam"
+        },
+        {
+            "title": "Doa Sujud Tilawah",
+            "arabic": "سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ فَتَبَارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ",
+            "latin": "Sajada wajhiya lilladzii kholaqohu wasyaqqa sam’ahu wabashorohu bihawlihi wa quwwatihi fatabaarokallohu ahsanul khooliqiin",
+            "translation": "Aku bersujud kepada Allah yang telah menciptakanku, yang telah memberinya pendengaran dan penglihatan dengan daya dan kekuatan-Nya, maka Mahasuci Allah sebaik-baiknya Pencipta"
+        },
+        {
+            "title": "Doa Sujud Syukur",
+            "arabic": "اَللّٰهُمَّ اغْفِرْلِىْ وَارْحَمْنِىْ وَتُبْ عَلَيَّ",
+            "latin": "Allahummaghfirlii warhamnii watub 'alayya",
+            "translation": "Ya Allah, ampunilah aku, rahmatilah aku, dan terimalah taubatku"
+        },
+        {
+            "title": "Doa Istikharah",
+            "arabic": "اَللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ",
+            "latin": "Allahumma innii astakhiiruka bi'ilmika wa astaqdiruka biqudratika wa as-aluka min fadhlikal 'azhiim",
+            "translation": "Ya Allah, aku memohon pilihan yang tepat dengan ilmu-Mu, aku memohon ketetapan dengan kekuasaan-Mu, dan aku memohon sebagian dari karunia-Mu yang agung"
+        },
+        {
+            "title": "Doa Ketika Hujan Turun",
+            "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+            "latin": "Allahumma shayyiban naafi'an",
+            "translation": "Ya Allah, turunkanlah hujan yang bermanfaat"
+        },
+        {
+            "title": "Doa Ketika Hujan Lebat",
+            "arabic": "اللَّهُمَّ حَوَالَيْنَا وَلاَ عَلَيْنَا ، اللَّهُمَّ عَلَى الآكَامِ وَالظِّرَابِ وَبُطُونِ الأَوْدِيَةِ وَمَنَابِتِ الشَّجَرِ",
+            "latin": "Allahumma hāwalaina wa lā 'alaina. Allahumma 'alal ākami wal jibāli, wazh zhiroobi, wa buthunil awdiyati, wa manābitisy syajari",
+            "translation": "Ya Allah, turunkanlah hujan di sekitar kami, bukan untuk merusak kami. Ya Allah, turunkanlah hujan ke dataran tinggi, gunung-gunung, bukit-bukit, perut lembah dan tempat tumbuhnya pepohonan."
+        },
+        {
+            "title": "Doa Setelah Hujan",
+            "arabic": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+            "latin": "Muthirnaa bifadhlillaahi wa rohmatih",
+            "translation": "Kami diberi hujan dengan karunia Allah dan rahmat-Nya"
+        },
+        {
+            "title": "Doa Ketika Mendengar Petir",
+            "arabic": "سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ",
+            "latin": "Subhaanalladzii yusabbihur ro'du bihamdihi wal malaa-ikatu min khiifatih",
+            "translation": "Maha suci Allah yang petir bertasbih dengan memuji-Nya dan para malaikat karena takut kepada-Nya"
+        },
+        {
+            "title": "Doa Ketika Angin Kencang",
+            "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ مَا فِيهَا وَخَيْرَ مَا أُرْسِلَتْ بِهِ وَأَعُوذُ بِكَ مِنْ شَرِّهَا وَشَرِّ مَا فِيهَا وَشَرِّ مَا أُرْسِلَتْ بِهِ",
+            "latin": "Allahumma innii as-aluka khoirohaa wa khoiro maa fiihaa wa khoiro maa ursilat bih, wa a'udzu bika min syarrihaa wa syarri maa fiihaa wa syarri maa ursilat bih",
+            "translation": "Ya Allah, aku memohon kepada-Mu kebaikan angin ini, kebaikan apa yang ada padanya dan kebaikan tujuan diutusnya. Dan aku berlindung kepada-Mu dari keburukannya, keburukan apa yang ada padanya dan keburukan tujuan diutusnya"
+        },
+        {
+            "title": "Doa Ketika Mendapat Mimpi Baik",
+            "arabic": "الْحَمْدُ لِلَّهِ الَّذِي قَضَى حَاجَتِي",
+            "latin": "Alhamdulillaahil ladzii qodhoo haajatii",
+            "translation": "Segala puji bagi Allah yang telah mengabulkan kebutuhanku"
+        },
+        {
+            "title": "Doa Ketika Mendapat Mimpi Buruk",
+            "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ شَرِّ مَا خَلَقَ",
+            "latin": "A'udzubikalimaatillaahit taammati min syarri maa kholaq",
+            "translation": "Aku berlindung dengan kalimat Allah yang sempurna dari keburukan apa yang telah Dia ciptakan"
+        },
+        {
+            "title": "Doa Ketika Marah",
+            "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+            "latin": "A'udzubillaahi minasy-syaitoonir rojiim",
+            "translation": "Aku berlindung kepada Allah dari godaan syaitan yang terkutuk"
+        },
+        {
+            "title": "Doa Mohon Ampunan Orang Tua",
+            "arabic": "رَّبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+            "latin": "Rabbighfir lii waliwaalidayya warhamhuma kamaa rabbayaanii shoghiiroo",
+            "translation": "Ya Tuhanku, ampunilah aku dan kedua orang tuaku, dan sayangilah mereka keduanya, sebagaimana mereka berdua telah mendidik aku waktu kecil"
+        },
+        {
+            "title": "Doa Memohon Kesehatan",
+            "arabic": "اللَّهُمَّ عَافِنِي فِي بَدَنِي وَعَافِنِي فِي سَمْعِي وَعَافِنِي فِي بَصَرِي لَا إِلَهَ إِلَّا أَنْتَ",
+            "latin": "Allahumma 'aafinii fii badan, wa 'aafinii fii sam'i, wa 'aafinii fii bashorii, laa ilaaha illaa anta",
+            "translation": "Ya Allah, berilah aku kesehatan pada tubuhku, berilah aku kesehatan pada pendengaranku, dan berilah aku kesehatan pada penglihatanku, tiada Tuhan selain Engkau"
+        },
+        {
+            "title": "Doa Ketika Sakit",
+            "arabic": "اَللّٰهُمَّ رَبَّ النَّاسِ أَذْهِبِ الْبَأْسَ اشْفِ وَأَنْتَ الشَّافِي لَا شِفَاءَ إِلَّا شِفَاؤُكَ شِفَاءً لَا يُغَادِرُ سَقَمًا",
+            "latin": "Allahumma robban-naas, adzhibil-ba'sa, isyfi anta-syaafii, laa syifaa-a illaa syifaa-uka, syifaa-an laa yughaadiru saqomaa",
+            "translation": "Ya Allah Tuhan manusia, hilangkanlah penyakit, sembuhkanlah, Engkau-lah yang Maha Penyembuh, tiada kesembuhan kecuali kesembuhan dari-Mu, kesembuhan yang tidak meninggalkan penyakit"
+        },
+        {
+            "title": "Doa Meminta Kemudahan Dalam Segala Urusan",
+            "arabic": "اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً وَأَنْتَ تَجْعَلُ الحَزْنَ إِذَا شِئْتَ سَهْلاً",
+            "latin": "Allahumma lā sahla illa mā ja'altahu sahlā, wa anta taj'alul hazna iża syi'ta sahlā",
+            "translation": "Ya Allah, tidak ada kemudahan kecuali Engkau buat mudah. Dan engkau menjadikan kesedihan (kesulitan), jika Engkau kehendaki pasti akan menjadi mudah."
+        },
+        {
+            "title": "Doa Saat Mendengar Orang Bersin",
+            "arabic": "يَرْحَمُكَ اللهُ",
+            "latin": "Yarhamukallah",
+            "translation": "Semoga Allah merahmatimu."
+        },
+        {
+            "title": "Doa Balasan Kepada yang Mendoakan Kamu Bersin",
+            "arabic": "يَهْدِيكُمُ اللهُ وَيُصْلِحُ بَالَكُمْ",
+            "latin": "Yahdikumullah wa yushlihu bālakum",
+            "translation": "Semoga Allah memberikan petunjuk, dan memperbaiki keadaan kalian."
+        },
+        {
+            "title": "Doa Ketika Dizalimi",
+            "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+            "latin": "Hasbunallahu wa ni'mal wakiil",
+            "translation": "Cukuplah Allah (menjadi penolong) bagi kami dan Dia sebaik-baik pelindung"
+        },
+        {
+            "title": "Doa Memohon Keturunan",
+            "arabic": "رَبِّ هَبْ لِي مِنَ الصَّالِحِينَ",
+            "latin": "Robbi hablii minash-shoolihiin",
+            "translation": "Ya Tuhanku, anugerahkanlah kepadaku (seorang anak) yang termasuk orang yang saleh"
+        },
+        {
+            "title": "Doa Memohon Rizki",
+            "arabic": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+            "latin": "Allahummakfinii bihalaalika 'an haraamika wa aghninii bifadhlika 'amman siwaaka",
+            "translation": "Ya Allah, cukupkanlah aku dengan yang halal-Mu dari yang haram-Mu dan cukupkanlah aku dengan karunia-Mu dari selain-Mu"
+        },
+        {
+            "title": "Doa Memohon Keselamatan Dunia Akhirat",
+            "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+            "latin": "Rabbanaa aatinaa fiddunyaa hasanah, wa fil aakhirati hasanah, wa qinaa 'adzaaban naar",
+            "translation": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan peliharalah kami dari siksa neraka"
+        },
+        {
+            "title": "Doa Ketika Mendapat Nikmat",
+            "arabic": "الْحَمْدُ لِلَّهِ الَّذِي بِنِعْمَتِهِ تَتِمُّ الصَّالِحَاتُ",
+            "latin": "Alhamdulillahil ladzii bini'matihi tatimmush-shoolihaat",
+            "translation": "Segala puji bagi Allah yang dengan nikmat-Nya menjadi sempurna segala amal shalih"
+        },
+        {
+            "title": "Doa Ketika Mendapat Musibah",
+            "arabic": "إِنَّا لِلّهِ وَإِنَّـا إِلَيْهِ رَاجِعونَ",
+            "latin": "Innaa lillaahi wa innaa ilayhi rooji'uun",
+            "translation": "Sesungguhnya kami milik Allah dan kepada-Nya-lah kami kembali"
+        },
+        {
+            "title": "Doa Untuk Kedua Orang Tua",
+            "arabic": "اللَّهُمَّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+            "latin": "Allahummarhamhuma kamaa robbayaanii shoghiiraa",
+            "translation": "Ya Allah, kasihilah keduanya sebagaimana mereka berdua mendidikku waktu kecil"
+        }
+    ]
+}

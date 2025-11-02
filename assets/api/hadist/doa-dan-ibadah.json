@@ -1,0 +1,125 @@
+{
+    "judul": "Doa Dan Ibadah",
+    "data": [
+        {
+            "id": 1,
+            "arab": "أَدْعُو اللَّهَ وَأَنتَ مُوقِنٌ بِالإِجَابَةِ.",
+            "arti": "Berdoalah kepada Allah dengan penuh keyakinan akan terkabulnya doa.",
+            "riwayat": "HR. Tirmidzi"
+        },
+        {
+            "id": 2,
+            "arab": "إِنَّ اللَّهَ لا يُسْتَجَابُ لِدُعَاءِ مِنْ قَلْبٍ غَافِلٍ لَاهٍ.",
+            "arti": "Sesungguhnya Allah tidak mengabulkan doa dari hati yang lalai.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 3,
+            "arab": "أَحَبُّ الْأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِن قَلَّتْ.",
+            "arti": "Amalan yang paling dicintai Allah adalah yang dilakukan secara terus-menerus, meskipun sedikit.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 4,
+            "arab": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ.",
+            "arti": "Tidak beriman salah seorang di antara kalian hingga ia mencintai saudaranya seperti ia mencintai dirinya sendiri.",
+            "riwayat": "HR. Bukhari dan Muslim"
+        },
+        {
+            "id": 5,
+            "arab": "مَنْ قَالَ لا إِلَهَ إِلَّا اللَّهُ، دَخَلَ الْجَنَّةَ.",
+            "arti": "Barangsiapa mengucapkan tidak ada tuhan selain Allah, maka ia akan masuk surga.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 6,
+            "arab": "الدُّعَاءُ هُوَ الْعِبَادَةُ.",
+            "arti": "Doa adalah ibadah.",
+            "riwayat": "HR. Tirmidzi"
+        },
+        {
+            "id": 7,
+            "arab": "إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ.",
+            "arti": "Sesungguhnya orang yang paling mulia di antara kalian di sisi Allah adalah yang paling bertaqwa.",
+            "riwayat": "HR. Al-Hakim"
+        },
+        {
+            "id": 8,
+            "arab": "كُلُّ عَمَلٍ لَا يُبْتَغَى بِهِ وَجْهُ اللَّهِ، فَهُوَ سُرَةٌ.",
+            "arti": "Setiap amal yang tidak dimaksudkan untuk mencari keridhaan Allah adalah sia-sia.",
+            "riwayat": "HR. Al-Baihaqi"
+        },
+        {
+            "id": 9,
+            "arab": "أَلَا أُنَبِّئُكُمْ بِأَخْبَارِكُمْ؟",
+            "arti": "Apakah saya akan memberitahukan berita-berita kalian?",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 10,
+            "arab": "اللّهُمَّ إِنِّي أَسْأَلُكَ الجَنَّةَ.",
+            "arti": "Ya Allah, aku memohon kepada-Mu surga.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 11,
+            "arab": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ.",
+            "arti": "Ya Allah, tolonglah aku untuk selalu mengingat-Mu, bersyukur kepada-Mu, dan beribadah dengan baik kepada-Mu.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 12,
+            "arab": "إِنَّ أَعْمَالَكُمْ عُرِضَتْ عَلَيَّ فِي كُلِّ أُحَادِيثِي.",
+            "arti": "Sesungguhnya amal-amal kalian dipresentasikan kepadaku setiap hari.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 13,
+            "arab": "لا يُسْتَجَابُ لِدُعَاءِ أَحَدِكُمْ حَتَّى يَخْرُجَ مَا فِي قَلْبِهِ.",
+            "arti": "Doa salah seorang di antara kalian tidak akan dikabulkan hingga keluar apa yang ada di hatinya.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 14,
+            "arab": "الدُّعَاءُ مِفْتَاحُ الرَّحْمَةِ.",
+            "arti": "Doa adalah kunci rahmat.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 15,
+            "arab": "مَنْ قَرَأَ آيَةَ الْكُرْسِيِّ بَعْدَ كُلِّ صَلَاةٍ، لَمْ يَمْنَعْهُ مِنْ دُخُولِ الْجَنَّةِ إِلَّا أَنْ يَمُوتَ.",
+            "arti": "Barangsiapa membaca Ayat Kursi setelah setiap salat, tidak ada yang menghalanginya untuk masuk surga kecuali kematian.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 16,
+            "arab": "أَكْثِرُوا مِنَ الدُّعَاءِ، فَإِنَّهُ يُسْتَجَابُ.",
+            "arti": "Perbanyaklah doa, karena doa akan dikabulkan.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 17,
+            "arab": "إِنَّ اللَّهَ قَامَ بِالْقَسْمِ بَيْنَكُمْ فِي أَحْبَابِكُمْ، وَلَكِنَّهُ جَعَلَ فِي الْأَعْمَالِ أَكْثَرَ مِنَ الْمُبَارَكَاتِ.",
+            "arti": "Sesungguhnya Allah telah mengatur cinta di antara kalian, tetapi Dia memberikan lebih banyak berkah dalam amal-amal kalian.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 18,
+            "arab": "إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ.",
+            "arti": "Sesungguhnya orang yang paling mulia di antara kalian di sisi Allah adalah yang paling bertaqwa.",
+            "riwayat": "HR. Al-Hakim"
+        },
+        {
+            "id": 19,
+            "arab": "الدُّعَاءُ يُفَكِّ أَحْبَاسَكُمْ.",
+            "arti": "Doa adalah penghapus beban kalian.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 20,
+            "arab": "اللَّهُمَّ اجْعَلْنَا مِنَ الَّذِينَ يَسْتَمِعُونَ الْقَوْلَ فَيَتَّبِعُونَ أَحْسَنَهُ.",
+            "arti": "Ya Allah, jadikanlah kami termasuk orang-orang yang mendengarkan perkataan lalu mengikuti yang terbaik di antara mereka.",
+            "riwayat": "HR. Ahmad"
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no shrink-to-fit=no">
+    <title>Irsyadut Thulab | Ayat 5</title>
+    <link rel="shortcut icon" href="../../assets/icon/doa.png" />
+    <link rel="stylesheet" href="../../assets/css/core/libs.min.css" />
+
+    <link rel="stylesheet" href="../../assets/css/hope-ui.min.css" />
+    <link rel="stylesheet" href="../../assets/css/custom.min.css?v=2.0.0" />
+    <link rel="stylesheet" href="../../assets/css/dark.min.css" />
+    <link rel="stylesheet" href="../../assets/css/customizer.min.css" />
+    <script defer src="../../assets/api/cdn.min.js"></script>
+</head>
+
+<body x-data x-init="$store.backController.init()" class=" ">
+    <div id="loading">
+        <div class="loader simple-loader">
+            <div class="loader-body"></div>
+        </div>
+    </div>
+    <aside id="body-sidebar" class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all">
+        <script type="module" src="../components/body-sidebar.js"></script>
+    </aside>
+    <main class="main-content">
+        <div id="main-cs-btn" class="position-relative iq-banner">
+            <script src="../components/main-cs-btn.js"></script>
+            <nav id="body-nav" class="nav navbar navbar-expand-lg navbar-light iq-navbar sticky-top">
+                <script type="module" src="../components/body-nav.js"></script>
+            </nav>
+            <div class="iq-navbar-header" style="height: 200px">
+                <div class="container-fluid iq-container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="flex-wrap text-center">
+                                <div class="d-flex justify-content-center gap-2 align-items-center">
+                                    <img src="../../assets/icon/doa.png" height="40px" alt="" />
+                                    <h4 class="mx-lg-5 ">Doa-Doa Pilihan</h4>
+                                    <img src="../../assets/icon/doa.png" height="40px" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="iq-header-img">
+                    <img src="../../assets/images/banner/do'a.jpg" alt="header"
+                        class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX" />
+                </div>
+            </div>
+            <div class="container mt-n5 p-0">
+                <div id="doaDetail" class="text-dark text-center card p-3">
+                    <h4 class="card-header text-center fw-bold mb-3">Loading...</h5>
+                        <div class="col-md-12 col-lg-12">
+                            <ul id="list-example" class="list-group mb-6">
+                                <li class="list-group-item list-group-item-light text-center">
+                                    <h4 class="text-dark text-center"><b> List </h4>
+                                </li>
+                                <div id="daftar-urutan">
+                                    <li class="list-group-item list-group-item-light">
+                                        <a class="text-dark text-center" href="#list-item-1"></a>
+                                    </li>
+                                </div>
+                            </ul>
+                            <div class="card-body pt-1">
+                                <div id="arabic" class="mb-4 arabic-font text-dark"></div>
+                                <div id="latin" class="text-start mb-3 fst-italic fs-6"></div>
+                                <div id="translation" class="text-start mb-3"></div>
+                                <div id="notes" class="mb-2 text-muted"></div>
+                                <div id="source" class="small text-secondary"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer id="body-footer" class="footer">
+        <script src="../components/body-footer.js"></script>
+    </footer>
+    <script>
+        async function loadDetail() {
+            const params = new URLSearchParams(window.location.search);
+            const category = params.get('category');
+            const index = parseInt(params.get('index'), 10);
+
+            const res = await fetch('../../assets/api/doa.json');
+            const json = await res.json();
+
+            // cari kategori (case-insensitive)
+            const kategori = json.find(
+                k => k.name.toLowerCase() === category.toLowerCase()
+            );
+
+            if (!kategori) {
+                document.getElementById('doaDetail').innerHTML = "<p>Kategori tidak ditemukan</p>";
+                return;
+            }
+
+            const doa = kategori.data[index];
+            if (!doa) {
+                document.getElementById('doaDetail').innerHTML = "<p>Doa tidak ditemukan</p>";
+                return;
+            }
+
+            document.querySelector('#doaDetail h4').innerText = doa.title;
+
+            // kalau doa biasa (punya arabic langsung)
+            if (doa.arabic) {
+                let isiDaftar = "";
+                document.getElementById('list-example').innerHTML = isiDaftar;
+                document.getElementById('arabic').innerText = doa.arabic || '';
+                document.getElementById('latin').innerHTML = `<small class="fw-lighter fs-6">${doa.latin}</small>` || '';
+                document.getElementById('translation').innerText = `Artinya: ${doa.translation}` || '';
+                document.getElementById('notes').innerText = doa.notes || '';
+                document.getElementById('source').innerText = doa.source || '';
+            }
+
+            // kalau dzikir (punya isi array)
+            if (Array.isArray(doa.urutan)) {
+                let isiHTML = "";
+                let isiDaftar = "";
+
+
+                doa.urutan.forEach((item, i) => {
+                    isiDaftar += `
+                        <li class="list-group-item list-group-item-light">
+                            <a class="text-dark d-flex justify-content-between" href="#list-item-${i}"><small class="text-start">${item.title}</small></a>
+                        </li>
+                    `;
+                });
+
+                doa.urutan.forEach((item, i) => {
+                    isiHTML += `
+                    <div class="col-md-12 col-lg-12">
+                        <div class="scrollspy-example" style="position: relative; height: 100%; overflow-y: auto;">
+                            <div class="text-dark text-start">
+                                <small class="">${item.notes}</small>
+                                <li id="list-item-${i}" style="list-style: none;">
+                                    <div class="text-dark text-center  mb-4">
+                                        <h5 class="text-center mb-3">${item.title}</h5>
+                                        <h4 class="text-dark arabic-font">
+                                            ${item.arabic || ''}
+                                        </h4>
+                                    </div>
+                                </li>
+                                <p class="text-dark text-start m-0">
+                                    Artinya : ${item.translation || ''}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="border border-1 border-black">
+                        
+                    `;
+                });
+                document.getElementById('arabic').innerHTML = isiHTML;
+                document.getElementById('daftar-urutan').innerHTML = isiDaftar;
+                document.getElementById('latin').innerText = '';
+                document.getElementById('translation').innerText = '';
+            }
+
+        }
+
+        loadDetail();
+    </script>
+
+    <script src="../../assets/js/core/libs.min.js"></script>
+    <script src="../../assets/js/core/external.min.js"></script>
+
+    <script src="../../assets/js/hope-ui.js" defer></script>
+    <script type="module" src="../01-button-contoller.js"></script>
+</body>
+
+</html>

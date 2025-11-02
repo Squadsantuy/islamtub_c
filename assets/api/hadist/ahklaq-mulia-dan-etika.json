@@ -1,0 +1,125 @@
+{
+    "judul": "Akhlaq Mulia dan Etika",
+    "data": [
+        {
+            "id": 1,
+            "arab": "إِنَّمَا بُعِثْتُ لِأُتَمِّمَ مَكَارِمَ الأَخْلاَقِ.",
+            "arti": "Sesungguhnya aku diutus untuk menyempurnakan akhlaq yang mulia.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 2,
+            "arab": "أَكْمَلُ الْمُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا.",
+            "arti": "Mukmin yang paling sempurna imannya adalah yang paling baik akhlaqnya.",
+            "riwayat": "HR. Tirmidzi"
+        },
+        {
+            "id": 3,
+            "arab": "الْبِرُّ حُسْنُ الْخُلُقِ.",
+            "arti": "Kebaikan itu adalah akhlaq yang baik.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 4,
+            "arab": "لَا تَحْقِرَنَّ مِنَ الْمَعْرُوفِ شَيْئًا وَلَوْ أَنْ تَلْقَى أَخَاكَ بِوَجْهٍ طَلْقٍ.",
+            "arti": "Janganlah kamu meremehkan perbuatan baik sekecil apapun, meskipun hanya bertemu saudaramu dengan wajah yang tersenyum.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 5,
+            "arab": "إِنَّ مِنْ أَحَبِّكُمْ إِلَيَّ وَأَقْرَبِكُمْ مِنِّي مَجْلِسًا يَوْمَ الْقِيَامَةِ أَحَاسِنَكُمْ أَخْلاَقًا.",
+            "arti": "Sesungguhnya orang yang paling aku cintai di antara kalian dan paling dekat tempatnya denganku pada hari kiamat adalah yang paling baik akhlaqnya.",
+            "riwayat": "HR. Tirmidzi"
+        },
+        {
+            "id": 6,
+            "arab": "إِنَّ اللَّهَ يُحِبُّ الْحِلْمَ وَالأَنَاةَ.",
+            "arti": "Sesungguhnya Allah mencintai kesabaran dan ketenangan.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 7,
+            "arab": "مَنْ لا يَرْحَمْ لا يُرْحَمْ.",
+            "arti": "Barangsiapa tidak menyayangi, maka ia tidak akan disayangi.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 8,
+            "arab": "إِنَّ أَحَبَّكُمْ إِلَى اللَّهِ أَحْسَنُكُمْ خُلُقًا.",
+            "arti": "Sesungguhnya yang paling dicintai oleh Allah di antara kalian adalah yang paling baik akhlaqnya.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 9,
+            "arab": "مَنْ أَحَبَّ أَنْ يُبْسَطَ لَهُ فِي رِزْقِهِ وَأَنْ يُنْسَأَ لَهُ فِي أَثَرِهِ فَلْيَصِلْ رَحِمَهُ.",
+            "arti": "Barangsiapa yang ingin dilapangkan rezekinya dan dipanjangkan umurnya, hendaklah ia menyambung silaturahim.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 10,
+            "arab": "وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ.",
+            "arti": "Allah selalu menolong hamba-Nya selama hamba tersebut menolong saudaranya.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 11,
+            "arab": "إِنَّ اللَّهَ جَمِيلٌ يُحِبُّ الْجَمَالَ.",
+            "arti": "Sesungguhnya Allah itu indah dan mencintai keindahan.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 12,
+            "arab": "إِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ.",
+            "arti": "Sesungguhnya kejujuran membawa kepada kebaikan, dan kebaikan membawa ke surga.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 13,
+            "arab": "وَمَا تَوَاضَعَ أَحَدٌ لِلَّهِ إِلَّا رَفَعَهُ اللَّهُ.",
+            "arti": "Tidaklah seseorang bersikap rendah hati karena Allah, kecuali Allah akan meninggikannya.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 14,
+            "arab": "إِنَّ اللَّهَ لَا يُحِبُّ مَنْ كَانَ فَاحِشًا بَذِيئًا.",
+            "arti": "Sesungguhnya Allah tidak mencintai orang yang kasar dan berbuat keji.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 15,
+            "arab": "إِذَا لَمْ تَسْتَحْيِ فَاصْنَعْ مَا شِئْتَ.",
+            "arti": "Jika kamu tidak malu, maka lakukanlah apa yang kamu kehendaki.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 16,
+            "arab": "مَنْ تَرَكَ شَيْئًا لِلَّهِ عَوَّضَهُ اللَّهُ خَيْرًا مِنْهُ.",
+            "arti": "Barangsiapa meninggalkan sesuatu karena Allah, maka Allah akan menggantinya dengan sesuatu yang lebih baik.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 17,
+            "arab": "لَا تَدْخُلُوا الْجَنَّةَ حَتَّى تُؤْمِنُوا، وَلَا تُؤْمِنُوا حَتَّى تَحَابُّوا.",
+            "arti": "Kalian tidak akan masuk surga sampai kalian beriman, dan kalian tidak akan beriman sampai kalian saling mencintai.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 18,
+            "arab": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ.",
+            "arti": "Bertakwalah kepada Allah di manapun kamu berada.",
+            "riwayat": "HR. Tirmidzi"
+        },
+        {
+            "id": 19,
+            "arab": "مَنْ صَمَتَ نَجَا.",
+            "arti": "Barangsiapa diam, maka ia akan selamat.",
+            "riwayat": "HR. Tirmidzi"
+        },
+        {
+            "id": 20,
+            "arab": "إِنَّ الْحَيَاءَ لَا يَأْتِي إِلَّا بِخَيْرٍ.",
+            "arti": "Sesungguhnya rasa malu tidak akan mendatangkan sesuatu kecuali kebaikan.",
+            "riwayat": "HR. Bukhari"
+        }
+    ]
+}

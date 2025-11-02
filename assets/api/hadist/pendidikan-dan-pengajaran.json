@@ -1,0 +1,125 @@
+{
+    "judul": "Pendidikan Dan Pengajaran",
+    "data": [
+        {
+            "id": 1,
+            "arab": "إِنَّمَا بُعِثْتُ مُعَلِّمًا.",
+            "arti": "Sesungguhnya aku diutus sebagai seorang pengajar.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 2,
+            "arab": "طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ.",
+            "arti": "Menuntut ilmu adalah kewajiban bagi setiap Muslim.",
+            "riwayat": "HR. Ibn Majah"
+        },
+        {
+            "id": 3,
+            "arab": "مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ.",
+            "arti": "Barangsiapa yang Allah kehendaki kebaikan padanya, Allah akan menjadikannya faham dalam agama.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 4,
+            "arab": "الْعُلَمَاءُ وَرَثَةُ الْأَنْبِيَاءِ.",
+            "arti": "Para ulama adalah pewaris para nabi.",
+            "riwayat": "HR. Abu Dawud"
+        },
+        {
+            "id": 5,
+            "arab": "أَحَبُّ الْأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِن قَلَّتْ.",
+            "arti": "Amalan yang paling dicintai Allah adalah yang dilakukan secara terus-menerus, meskipun sedikit.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 6,
+            "arab": "إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ.",
+            "arti": "Sesungguhnya orang yang paling mulia di antara kalian di sisi Allah adalah yang paling bertaqwa.",
+            "riwayat": "HR. Al-Hakim"
+        },
+        {
+            "id": 7,
+            "arab": "أَعْظَمُ الْمَسَاجِدِ بَعْدَ الْمَسْجِدِ الْحَرَامِ الْمَسْجِدُ الأَقْصَى.",
+            "arti": "Masjid yang paling mulia setelah Masjidil Haram adalah Masjid Al-Aqsa.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 8,
+            "arab": "مَنْ عَلَّمَ عِلْمًا فَلَهُ أَجْرٌ مَا عُمِلَ بِهِ.",
+            "arti": "Barangsiapa yang mengajarkan ilmu, maka baginya pahala selama ilmu itu diamalkan.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 9,
+            "arab": "الدُّعَاءُ مُفْتَاحُ الرَّحْمَةِ.",
+            "arti": "Doa adalah kunci rahmat.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 10,
+            "arab": "مَنْ أَحْضَرَ دَرْسَ الْعِلْمِ فَلَهُ أَجْرٌ عَظِيمٌ.",
+            "arti": "Barangsiapa yang menghadiri pelajaran ilmu, maka baginya pahala yang besar.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 11,
+            "arab": "إِنَّمَا يُعْطَى الْعَالِمُ أَجْرَهُ.",
+            "arti": "Sesungguhnya seorang alim akan diberikan pahala sesuai dengan ilmunya.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 12,
+            "arab": "عَلَيْكُمْ بِالْعِلْمِ، فَإِنَّ الْعِلْمَ مِيرَاثٌ.",
+            "arti": "Wajib bagi kalian menuntut ilmu, karena ilmu adalah warisan.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 13,
+            "arab": "مَا جَمَعَ اللَّهُ فِي عِلْمٍ إِلَّا وَلَهُ جَمَعَةٌ.",
+            "arti": "Apa yang dikumpulkan Allah dalam ilmu, maka pasti ada kumpulannya.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 14,
+            "arab": "طَلَبُ الْعِلْمِ أَفْضَلُ مِنَ النَّفَقَةِ.",
+            "arti": "Menuntut ilmu lebih utama daripada berinfak.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 15,
+            "arab": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ طَرِيقًا إِلَى الْجَنَّةِ.",
+            "arti": "Barangsiapa menempuh jalan untuk mencari ilmu, Allah akan memudahkan baginya jalan menuju surga.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 16,
+            "arab": "الْعِلْمُ فِي الصِّغَرِ كَالنَّقْشِ فِي الْحَجَرِ.",
+            "arti": "Ilmu di usia kecil ibarat ukiran di atas batu.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 17,
+            "arab": "إِنَّ اللَّهَ يَرْفَعُ بِهَذَا الْكِتَابِ أَقْوَامًا وَيَضَعُ بِهِ آخَرِينَ.",
+            "arti": "Sesungguhnya Allah mengangkat derajat suatu kaum dengan kitab ini dan merendahkan derajat lainnya.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 18,
+            "arab": "مَنْ كَانَ يُرِيدُ الْخَيْرَ لِذَاتِهِ، فَلْيَعَلَّمْ.",
+            "arti": "Barangsiapa yang ingin kebaikan untuk dirinya, hendaklah ia belajar.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 19,
+            "arab": "إنَّ أَعْلَى الْمَكَانَةِ فِي الْجَنَّةِ عِلْمٌ.",
+            "arti": "Pangkat tertinggi di surga adalah ilmu.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 20,
+            "arab": "إِنَّ مَعَ الْعُلَمَاءِ يُبَارَكُ لَكُمْ.",
+            "arti": "Bersama para ulama akan membawa berkah bagi kalian.",
+            "riwayat": "HR. Ahmad"
+        }
+    ]
+}

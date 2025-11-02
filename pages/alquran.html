@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no shrink-to-fit=no">
+   <title>Irsyadut Thulab | Al-Quran</title>
+   <link rel="shortcut icon" href="../assets/icon/quran.png" />
+   <link rel="stylesheet" href="../assets/css/core/libs.min.css" />
+
+   <link rel="stylesheet" href="../assets/css/hope-ui.min.css?v=2.0.0" />
+   <link rel="stylesheet" href="../assets/css/custom.min.css?v=2.0.0" />
+   <link rel="stylesheet" href="../assets/css/dark.min.css" />
+   <link rel="stylesheet" href="../assets/css/customizer.min.css" />
+   <script defer src="../assets/api/cdn.min.js"></script>
+</head>
+
+<body x-data x-init="$store.backController.init()" class="  ">
+   <div id="loading">
+      <div class="loader simple-loader">
+         <div class="loader-body"></div>
+      </div>
+   </div>
+   <aside id="body-sidebar" class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all">
+      <script type="module" src="../components/body-sidebar.js"></script>
+   </aside>
+   <main class="main-content">
+      <div id="main-cs-btn" class="position-relative iq-banner">
+         <script src="../components/main-cs-btn.js"></script>
+         <nav id="body-nav" class="nav navbar navbar-expand-lg navbar-light iq-navbar">
+            <script type="module" src="../components/body-nav.js"></script>
+         </nav>
+         <div class="iq-navbar-header" style="height: 180px;">
+            <div class="container-fluid iq-container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="flex-wrap text-center">
+                        <div class="d-flex justify-content-center gap-2 align-items-center">
+                           <img src="../assets/icon/quran.png" height="40px" alt="" />
+                           <h2 class="mx-lg-5 fs-lg-1"> Sudah baca <b class="text-nowrap"> Al-Quran</b> hari ini ?</h2>
+                           <img src="../assets/icon/quran.png" height="40px" alt="" />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <style>
+               .link {
+                  color: rgb(255, 255, 255);
+               }
+
+               .link:hover {
+                  color: blue;
+                  transition: .4s ease;
+               }
+            </style>
+            <div class="row">
+            </div>
+            <div class="iq-navbar-header">
+               <div class="iq-header-img">
+                  <img src="../assets/images/banner/al-qur'an.jpg" alt="header"
+                     class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX">
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid content-inner mt-n5 p-0">
+            <div class="card mt-4 mb-0  px-3">
+               <div class="col-12 sticky-top mb-3 mt-4" style="z-index: 10;top: 10px;">
+                  <input type="text" placeholder="Cari Surat" id="searchInput" onkeyup="searchFunction()"
+                     class="form-control form-control-lg border-1 shadow">
+               </div>
+               <div class="col-12 mb-4 px-3">
+                  <div class="d-flex row gap-2 justify-content-center mb-2">
+                     <a href="./alquran/detail.html?surat=36" style="width: 100px;"
+                        class="rounded-pill text-light col-auto badge bg-info text-decoration-none">
+                        <div class="d-flex align-items-center p-2">
+                           <div class="flex-grow-1">Yasin
+                           </div>
+                        </div>
+                     </a>
+                     <a href="./alquran/detail.html?surat=56" style="width: 100px;"
+                        class="rounded-pill text-light col-auto badge bg-info text-decoration-none">
+                        <div class="d-flex align-items-center p-2">
+                           <div class="flex-grow-1">Al-Waqi'ah
+                           </div>
+                        </div>
+                     </a>
+                     <a href="./alquran/detail.html?surat=18" style="width: 100px;"
+                        class="rounded-pill text-light col-auto badge bg-info text-decoration-none">
+                        <div class="d-flex align-items-center p-2">
+                           <div class="flex-grow-1">Al-Kahfi
+                           </div>
+                        </div>
+                     </a>
+                     <a href="./alquran/detail.html?surat=67" style="width: 100px;"
+                        class="col-auto rounded-pill text-light badge bg-info text-decoration-none">
+                        <div class="d-flex align-items-center p-2">
+                           <div class="flex-grow-1">Al-Mulk
+                           </div>
+                        </div>
+                     </a>
+                     <a href="./alquran/detail.html?surat=55" style="width: 100px;"
+                        class="col-auto rounded-pill text-light badge bg-info text-decoration-none">
+                        <div class="d-flex align-items-center p-2">
+                           <div class="flex-grow-1">Ar-Rahman
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="row text-center" id="suratList" x-data="loadSurat()" x-init="fetchData()"
+                  style="z-index: 0;">
+               </div>
+               <div id="noResults" class="alert alert-light rounded d-none">Surat tidak ditemukan</div>
+               <div class="text-center my-4">
+                  <small class="text-dark fw-bold">
+                     Berikut ini adalah daftar surat Al-Quran yang bersumber dari
+                     <a href="https://tanzil.net" class="link text-primary">
+                        Tanzil Project
+                     </a>
+                  </small>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer id="body-footer" class="footer">
+         <script src="../components/body-footer.js"></script>
+      </footer>
+   </main>
+   <script>
+      function searchFunction() {
+         let input = document.getElementById('searchInput').value.toLowerCase();
+         let cards = document.getElementById('suratList').getElementsByClassName('col-lg-4');
+         let noResults = document.getElementById('noResults');
+         let found = false;
+         for (let i = 0; i < cards.length; i++) {
+            let cardContent = cards[i].innerText.toLowerCase();
+            if (cardContent.indexOf(input) > -1) {
+               cards[i].style.display = "";
+               found = true;
+            } else {
+               cards[i].style.display = "none";
+            }
+         }
+         if (!found) {
+            noResults.classList.remove('d-none');
+         } else {
+            noResults.classList.add('d-none');
+         }
+      }
+   </script>
+   <script>
+      document.addEventListener('alpine:init', () => {
+         Alpine.data('loadSurat', () => ({
+            list: [],
+            async fetchData() {
+               const res = await fetch('../assets/api/quran.json');
+               const json = await res.json();
+               this.list = json.data;
+               this.render();
+            },
+            render() {
+               const target = document.getElementById('suratList');
+               this.list.forEach(surat => {
+                  target.insertAdjacentHTML('beforeend', `
+                   <div class="col-md-6 col-lg-4 mb-4">
+                     <a href="./alquran/detail.html?surat=${surat["surat-ke"]}" class="text-dark text-decoration-none">
+                       <div class="card h-100 border-0 rounded-3 shadow">
+                         <div class="card-body">
+                           <div class="d-flex align-items-center">
+                             <div class="flex-shrink-0">${surat["surat-ke"]}.</div>
+                             <div class="flex-grow-1 ms-3">
+                               <strong>${surat.name} (${surat["jumlah-surat"]})</strong><br>
+                               <small><i>${surat.artinya.indonesia}</i></small>
+                             </div>
+                             <div class="flex-grow-5 text-nowrap ms-auto">
+                               <h2>${surat.artinya.arab}</h2>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </a>
+                   </div>
+                 `)
+               });
+            }
+         }))
+      })
+   </script>
+   <script src="../assets/js/core/libs.min.js"></script>
+   <script src="../assets/js/core/external.min.js"></script>
+
+   <script src="../assets/js/hope-ui.js" defer></script>
+   <script type="module" src="./01-button-contoller.js"></script>
+</body>

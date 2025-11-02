@@ -1,0 +1,1486 @@
+{
+  "data": [
+    {
+      "name": "Al-Fatihah",
+      "artinya": {
+        "arab": "الفاتحة",
+        "english": "The Opening",
+        "indonesia": "Pembukaan"
+      },
+      "jumlah-surat": 7,
+      "surat-ke": 1,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/001.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Baqarah",
+      "artinya": {
+        "arab": "البقرة",
+        "english": "The Cow",
+        "indonesia": "Sapi"
+      }, 
+      "jumlah-surat": 286,
+      "surat-ke": 2,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/002.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Aal-Imran",
+      "artinya": {
+        "arab": "آل عمران",
+        "english": "The Family of Imraan",
+        "indonesia": "Keluarga Imran"
+      },
+      "jumlah-surat": 200,
+      "surat-ke": 3,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/003.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "An-Nisaa'",
+      "artinya": {
+        "arab": "النساء",
+        "english": "The Women",
+        "indonesia": "Wanita"
+      },
+      "jumlah-surat": 176,
+      "surat-ke": 4,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/004.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Ma'ida",
+      "artinya": {
+        "arab": "المائدة",
+        "english": "The Table",
+        "indonesia": "Hidangan"
+      },
+      "jumlah-surat": 120,
+      "surat-ke": 5,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/005.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-An'am",
+      "artinya": {
+        "arab": "الأنعام",
+        "english": "The Cattle",
+        "indonesia": "Binatang Ternak"
+      },
+      "jumlah-surat": 165,
+      "surat-ke": 6,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/006.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-A'raf",
+      "artinya": {
+        "arab": "الأعراف",
+        "english": "The Heights",
+        "indonesia": "Tempat Tertinggi"
+      },
+      "jumlah-surat": 206,
+      "surat-ke": 7,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/007.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Anfal",
+      "artinya": {
+        "arab": "الأنفال",
+        "english": "The Spoils of War",
+        "indonesia": "Rampasan Perang"
+      },
+      "jumlah-surat": 75,
+      "surat-ke": 8,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/008.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Tawba",
+      "artinya": {
+        "arab": "التوبة",
+        "english": "The Repentance",
+        "indonesia": "Pengampunan"
+      },
+      "jumlah-surat": 129,
+      "surat-ke": 9,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/009.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Yunus",
+      "artinya": {
+        "arab": "يونس",
+        "english": "Jonas",
+        "indonesia": "Yunus"
+      },
+      "jumlah-surat": 109,
+      "surat-ke": 10,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/010.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Hud",
+      "artinya": {
+        "arab": "هود",
+        "english": "Hud",
+        "indonesia": "Hud"
+      },
+      "jumlah-surat": 123,
+      "surat-ke": 11,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/011.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Yusuf",
+      "artinya": {
+        "arab": "يوسف",
+        "english": "Joseph",
+        "indonesia": "Yusuf"
+      },
+      "jumlah-surat": 111,
+      "surat-ke": 12,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/012.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ar-Ra'd",
+      "artinya": {
+        "arab": "الرعد",
+        "english": "The Thunder",
+        "indonesia": "Guruh"
+      },
+      "jumlah-surat": 43,
+      "surat-ke": 13,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/013.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Ibrahim",
+      "artinya": {
+        "arab": "إبراهيم",
+        "english": "Abraham",
+        "indonesia": "Ibrahim"
+      },
+      "jumlah-surat": 52,
+      "surat-ke": 14,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/014.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Hijr",
+      "artinya": {
+        "arab": "الحجر",
+        "english": "The Rock",
+        "indonesia": "Hijr"
+      },
+      "jumlah-surat": 99,
+      "surat-ke": 15,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/015.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Nahl",
+      "artinya": {
+        "arab": "النحل",
+        "english": "The Bee",
+        "indonesia": "Lebah"
+      },
+      "jumlah-surat": 128,
+      "surat-ke": 16,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/016.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Israa",
+      "artinya": {
+        "arab": "الإسراء",
+        "english": "The Night Journey",
+        "indonesia": "Memperjalankan Malam Hari"
+      },
+      "jumlah-surat": 111,
+      "surat-ke": 17,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/017.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Kahf",
+      "artinya": {
+        "arab": "الكهف",
+        "english": "The Cave",
+        "indonesia": "Goa"
+      },
+      "jumlah-surat": 110,
+      "surat-ke": 18,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/018.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Maryam",
+      "artinya": {
+        "arab": "مريم",
+        "english": "Mary",
+        "indonesia": "Maryam"
+      },
+      "jumlah-surat": 98,
+      "surat-ke": 19,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/019.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ta-Ha",
+      "artinya": {
+        "arab": "طه",
+        "english": "Taa-Haa",
+        "indonesia": "Taha"
+      },
+      "jumlah-surat": 135,
+      "surat-ke": 20,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/020.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Anbiya",
+      "artinya": {
+        "arab": "الأنبياء",
+        "english": "The Prophets",
+        "indonesia": "Para Nabi"
+      },
+      "jumlah-surat": 112,
+      "surat-ke": 21,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/021.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Hajj",
+      "artinya": {
+        "arab": "الحج",
+        "english": "The Pilgrimage",
+        "indonesia": "Haji"
+      },
+      "jumlah-surat": 78,
+      "surat-ke": 22,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/022.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Muminun",
+      "artinya": {
+        "arab": "المؤمنون",
+        "english": "The Believers",
+        "indonesia": "Orang-Orang Mukmin"
+      },
+      "jumlah-surat": 118,
+      "surat-ke": 23,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/023.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Nur",
+      "artinya": {
+        "arab": "النور",
+        "english": "The Light",
+        "indonesia": "Cahaya"
+      },
+      "jumlah-surat": 64,
+      "surat-ke": 24,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/024.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Furqan",
+      "artinya": {
+        "arab": "الفرقان",
+        "english": "The Criterion",
+        "indonesia": "Pembeda"
+      },
+      "jumlah-surat": 77,
+      "surat-ke": 25,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/025.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ash-Shuara",
+      "artinya": {
+        "arab": "الشعراء",
+        "english": "The Poets",
+        "indonesia": "Para Penyair"
+      },
+      "jumlah-surat": 227,
+      "surat-ke": 26,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/026.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Naml",
+      "artinya": {
+        "arab": "النمل",
+        "english": "The Ant",
+        "indonesia": "Semut-semut"
+      },
+      "jumlah-surat": 93,
+      "surat-ke": 27,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/027.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Qasas",
+      "artinya": {
+        "arab": "القصص",
+        "english": "The Stories",
+        "indonesia": "Kisah-Kisah"
+      },
+      "jumlah-surat": 88,
+      "surat-ke": 28,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/028.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ankabut",
+      "artinya": {
+        "arab": "العنكبوت",
+        "english": "The Spider",
+        "indonesia": "Laba-Laba"
+      },
+      "jumlah-surat": 69,
+      "surat-ke": 29,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/029.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ar-Rum",
+      "artinya": {
+        "arab": "الروم",
+        "english": "The Romans",
+        "indonesia": "Romawi"
+      },
+      "jumlah-surat": 60,
+      "surat-ke": 30,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/030.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Luqman",
+      "artinya": {
+        "arab": "لقمان",
+        "english": "Luqman",
+        "indonesia": "Luqman"
+      },
+      "jumlah-surat": 34,
+      "surat-ke": 31,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/031.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "As-Sajdah",
+      "artinya": {
+        "arab": "السجدة",
+        "english": "The Prostration",
+        "indonesia": "Sajdah"
+      },
+      "jumlah-surat": 30,
+      "surat-ke": 32,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/032.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ahzab",
+      "artinya": {
+        "arab": "الأحزاب",
+        "english": "The Clans",
+        "indonesia": "Golongan Yang Bersekutu"
+      },
+      "jumlah-surat": 73,
+      "surat-ke": 33,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/033.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Saba",
+      "artinya": {
+        "arab": "سبأ",
+        "english": "Sheba",
+        "indonesia": "Saba'"
+      },
+      "jumlah-surat": 54,
+      "surat-ke": 34,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/034.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Fatir",
+      "artinya": {
+        "arab": "فاطر",
+        "english": "The Originator",
+        "indonesia": "Maha Pencipta"
+      },
+      "jumlah-surat": 45,
+      "surat-ke": 35,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/035.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Yasin",
+      "artinya": {
+        "arab": "يس",
+        "english": "Yaseen",
+        "indonesia": "Yasin"
+      },
+      "jumlah-surat": 83,
+      "surat-ke": 36,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/036.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "As-Saffat",
+      "artinya": {
+        "arab": "الصافات",
+        "english": "Those drawn up in Ranks",
+        "indonesia": "Barisan-Barisan"
+      },
+      "jumlah-surat": 182,
+      "surat-ke": 37,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/037.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Sad",
+      "artinya": {
+        "arab": "ص",
+        "english": "The letter Saad",
+        "indonesia": "Sad"
+      },
+      "jumlah-surat": 88,
+      "surat-ke": 38,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/038.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Az-Zumar",
+      "artinya": {
+        "arab": "الزمر",
+        "english": "The Groups",
+        "indonesia": "Rombongan"
+      },
+      "jumlah-surat": 75,
+      "surat-ke": 39,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/039.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ghafir",
+      "artinya": {
+        "arab": "غافر",
+        "english": "The Forgiver",
+        "indonesia": "Maha Pengampun"
+      },
+      "jumlah-surat": 85,
+      "surat-ke": 40,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/040.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Fussilat",
+      "artinya": {
+        "arab": "فصلت",
+        "english": "Explained in detail",
+        "indonesia": "Yang Dijelaskan"
+      },
+      "jumlah-surat": 54,
+      "surat-ke": 41,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/041.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ash-Shura",
+      "artinya": {
+        "arab": "الشورى",
+        "english": "Consultation",
+        "indonesia": "Musyawarah"
+      },
+      "jumlah-surat": 53,
+      "surat-ke": 42,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/042.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Az-Zukhruf",
+      "artinya": {
+        "arab": "الزخرف",
+        "english": "Ornaments of gold",
+        "indonesia": "Perhiasan"
+      },
+      "jumlah-surat": 89,
+      "surat-ke": 43,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/043.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ad-Dukhan",
+      "artinya": {
+        "arab": "الدخان",
+        "english": "The Smoke",
+        "indonesia": "Kabut"
+      },
+      "jumlah-surat": 59,
+      "surat-ke": 44,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/044.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Jathiya",
+      "artinya": {
+        "arab": "الجاثية",
+        "english": "Crouching",
+        "indonesia": "Berlutut"
+      },
+      "jumlah-surat": 37,
+      "surat-ke": 45,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/045.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ahqaf",
+      "artinya": {
+        "arab": "الأحقاف",
+        "english": "The Dunes",
+        "indonesia": "Bukit Pasir"
+      },
+      "jumlah-surat": 35,
+      "surat-ke": 46,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/046.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Muhammad",
+      "artinya": {
+        "arab": "محمد",
+        "english": "Muhammad",
+        "indonesia": "Muhammad"
+      },
+      "jumlah-surat": 38,
+      "surat-ke": 47,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/047.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Fath",
+      "artinya": {
+        "arab": "الفتح",
+        "english": "The Victory",
+        "indonesia": "Kemenangan"
+      },
+      "jumlah-surat": 29,
+      "surat-ke": 48,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/048.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Hujurat",
+      "artinya": {
+        "arab": "الحجرات",
+        "english": "The Inner Apartments",
+        "indonesia": "Kamar-Kamar"
+      },
+      "jumlah-surat": 18,
+      "surat-ke": 49,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/049.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Qaf",
+      "artinya": {
+        "arab": "ق",
+        "english": "The letter Qaaf",
+        "indonesia": "Qaf"
+      },
+      "jumlah-surat": 45,
+      "surat-ke": 50,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/050.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Az-Zariyat",
+      "artinya": {
+        "arab": "الذاريات",
+        "english": "The Winnowing Winds",
+        "indonesia": "Angin yang Menerbangkan"
+      },
+      "jumlah-surat": 60,
+      "surat-ke": 51,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/051.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "At-Tur",
+      "artinya": {
+        "arab": "الطور",
+        "english": "The Mount",
+        "indonesia": "Bukit Tursina"
+      },
+      "jumlah-surat": 49,
+      "surat-ke": 52,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/052.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Najm",
+      "artinya": {
+        "arab": "النجم",
+        "english": "The Star",
+        "indonesia": "Bintang"
+      },
+      "jumlah-surat": 62,
+      "surat-ke": 53,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/053.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Qamar",
+      "artinya": {
+        "arab": "القمر",
+        "english": "The Moon",
+        "indonesia": "Bulan"
+      },
+      "jumlah-surat": 55,
+      "surat-ke": 54,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/054.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ar-Rahman",
+      "artinya": {
+        "arab": "الرحمن",
+        "english": "The Beneficent",
+        "indonesia": "Maha Pengasih"
+      },
+      "jumlah-surat": 78,
+      "surat-ke": 55,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/055.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Waqia",
+      "artinya": {
+        "arab": "الواقعة",
+        "english": "The Inevitable",
+        "indonesia": "Hari Kiamat"
+      },
+      "jumlah-surat": 96,
+      "surat-ke": 56,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/056.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Hadid",
+      "artinya": {
+        "arab": "الحديد",
+        "english": "The Iron",
+        "indonesia": "Besi"
+      },
+      "jumlah-surat": 29,
+      "surat-ke": 57,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/057.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Mujadilah",
+      "artinya": {
+        "arab": "المجادلة",
+        "english": "The Pleading Woman",
+        "indonesia": "Gugatan"
+      },
+      "jumlah-surat": 22,
+      "surat-ke": 58,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/058.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Hashr",
+      "artinya": {
+        "arab": "الحشر",
+        "english": "The Exile",
+        "indonesia": "Pengusiran"
+      },
+      "jumlah-surat": 24,
+      "surat-ke": 59,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/059.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Mumtahinah",
+      "artinya": {
+        "arab": "الممتحنة",
+        "english": "She that is to be examined",
+        "indonesia": "Wanita Yang Diuji"
+      },
+      "jumlah-surat": 13,
+      "surat-ke": 60,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/060.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "As-Saff",
+      "artinya": {
+        "arab": "الصف",
+        "english": "The Ranks",
+        "indonesia": "Barisan"
+      },
+      "jumlah-surat": 14,
+      "surat-ke": 61,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/061.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Jumu'ah",
+      "artinya": {
+        "arab": "الجمعة",
+        "english": "Friday",
+        "indonesia": "Jumat"
+      },
+      "jumlah-surat": 11,
+      "surat-ke": 62,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/062.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Munafiqun",
+      "artinya": {
+        "arab": "المنافقون",
+        "english": "The Hypocrites",
+        "indonesia": "Orang-Orang Munafik"
+      },
+      "jumlah-surat": 11,
+      "surat-ke": 63,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/063.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "At-Taghabun",
+      "artinya": {
+        "arab": "التغابن",
+        "english": "Mutual Disillusion",
+        "indonesia": "Pengungkapan Kesalahan"
+      },
+      "jumlah-surat": 18,
+      "surat-ke": 64,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/064.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "At-Talaq",
+      "artinya": {
+        "arab": "الطلاق",
+        "english": "Divorce",
+        "indonesia": "Talak"
+      },
+      "jumlah-surat": 12,
+      "surat-ke": 65,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/065.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "At-Tahrim",
+      "artinya": {
+        "arab": "التحريم",
+        "english": "The Prohibition",
+        "indonesia": "Pengharaman"
+      },
+      "jumlah-surat": 12,
+      "surat-ke": 66,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/066.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Mulk",
+      "artinya": {
+        "arab": "الملك",
+        "english": "The Sovereignty",
+        "indonesia": "Kerajaan"
+      },
+      "jumlah-surat": 30,
+      "surat-ke": 67,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/067.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Qalam",
+      "artinya": {
+        "arab": "القلم",
+        "english": "The Pen",
+        "indonesia": "Pena"
+      },
+      "jumlah-surat": 52,
+      "surat-ke": 68,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/068.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Haqqah",
+      "artinya": {
+        "arab": "الحاقة",
+        "english": "The Reality",
+        "indonesia": "Hari Kiamat"
+      },
+      "jumlah-surat": 52,
+      "surat-ke": 69,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/069.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ma'arij",
+      "artinya": {
+        "arab": "المعارج",
+        "english": "The Ascending Stairways",
+        "indonesia": "Tempat Naik"
+      },
+      "jumlah-surat": 44,
+      "surat-ke": 70,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/070.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Nuh",
+      "artinya": {
+        "arab": "نوح",
+        "english": "Noah",
+        "indonesia": "Nuh"
+      },
+      "jumlah-surat": 28,
+      "surat-ke": 71,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/071.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Jinn",
+      "artinya": {
+        "arab": "الجن",
+        "english": "The Jinn",
+        "indonesia": "Jin"
+      },
+      "jumlah-surat": 28,
+      "surat-ke": 72,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/072.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Muzzammil",
+      "artinya": {
+        "arab": "المزمل",
+        "english": "The Enshrouded One",
+        "indonesia": "Orang Yang Berselimut"
+      },
+      "jumlah-surat": 20,
+      "surat-ke": 73,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/073.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Muddaththir",
+      "artinya": {
+        "arab": "المدثر",
+        "english": "The Cloaked One",
+        "indonesia": "Orang Yang Berkemul"
+      },
+      "jumlah-surat": 56,
+      "surat-ke": 74,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/074.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Qiyamah",
+      "artinya": {
+        "arab": "القيامة",
+        "english": "The Resurrection",
+        "indonesia": "Hari Kiamat"
+      },
+      "jumlah-surat": 40,
+      "surat-ke": 75,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/075.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Insan",
+      "artinya": {
+        "arab": "الإنسان",
+        "english": "Man",
+        "indonesia": "Manusia"
+      },
+      "jumlah-surat": 31,
+      "surat-ke": 76,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/076.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Mursalat",
+      "artinya": {
+        "arab": "المرسلات",
+        "english": "The Emissaries",
+        "indonesia": "Malaikat Yang Diutus"
+      },
+      "jumlah-surat": 50,
+      "surat-ke": 77,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/077.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Naba",
+      "artinya": {
+        "arab": "النبأ",
+        "english": "The Announcement",
+        "indonesia": "Berita Besar"
+      },
+      "jumlah-surat": 40,
+      "surat-ke": 78,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/078.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Naziat",
+      "artinya": {
+        "arab": "النازعات",
+        "english": "Those who drag forth",
+        "indonesia": "Malaikat Yang Mencabut"
+      },
+      "jumlah-surat": 46,
+      "surat-ke": 79,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/079.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Abasa",
+      "artinya": {
+        "arab": "عبس",
+        "english": "He frowned",
+        "indonesia": "Bermuka Masam"
+      },
+      "jumlah-surat": 42,
+      "surat-ke": 80,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/080.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "At-Takwir",
+      "artinya": {
+        "arab": "التكوير",
+        "english": "The Overthrowing",
+        "indonesia": "Penggulungan"
+      },
+      "jumlah-surat": 29,
+      "surat-ke": 81,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/081.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Infitar",
+      "artinya": {
+        "arab": "الإنفطار",
+        "english": "The Cleaving",
+        "indonesia": "Terbelah"
+      },
+      "jumlah-surat": 19,
+      "surat-ke": 82,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/082.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Mutaffifin",
+      "artinya": {
+        "arab": "المطففين",
+        "english": "Defrauding",
+        "indonesia": "Orang-Orang Curang"
+      },
+      "jumlah-surat": 36,
+      "surat-ke": 83,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/083.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Inshiqaq",
+      "artinya": {
+        "arab": "الإنشقاق",
+        "english": "The Splitting Open",
+        "indonesia": "Terbelah"
+      },
+      "jumlah-surat": 25,
+      "surat-ke": 84,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/084.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Buruj",
+      "artinya": {
+        "arab": "البروج",
+        "english": "The Constellations",
+        "indonesia": "Gugusan Bintang"
+      },
+      "jumlah-surat": 22,
+      "surat-ke": 85,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/085.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "At-Tariq",
+      "artinya": {
+        "arab": "الطارق",
+        "english": "The Morning Star",
+        "indonesia": "Yang Datang Di Malam Hari"
+      },
+      "jumlah-surat": 17,
+      "surat-ke": 86,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/086.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ala",
+      "artinya": {
+        "arab": "الأعلى",
+        "english": "The Most High",
+        "indonesia": "Maha Tinggi"
+      },
+      "jumlah-surat": 19,
+      "surat-ke": 87,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/087.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ghashiyah",
+      "artinya": {
+        "arab": "الغاشية",
+        "english": "The Overwhelming",
+        "indonesia": "Hari Kiamat"
+      },
+      "jumlah-surat": 26,
+      "surat-ke": 88,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/088.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Fajr",
+      "artinya": {
+        "arab": "الفجر",
+        "english": "The Dawn",
+        "indonesia": "Fajar"
+      },
+      "jumlah-surat": 30,
+      "surat-ke": 89,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/089.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Balad",
+      "artinya": {
+        "arab": "البلد",
+        "english": "The City",
+        "indonesia": "Negeri"
+      },
+      "jumlah-surat": 20,
+      "surat-ke": 90,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/090.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ash-Shams",
+      "artinya": {
+        "arab": "الشمس",
+        "english": "The Sun",
+        "indonesia": "Matahari"
+      },
+      "jumlah-surat": 15,
+      "surat-ke": 91,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/091.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Lail",
+      "artinya": {
+        "arab": "الليل",
+        "english": "The Night",
+        "indonesia": "Malam"
+      },
+      "jumlah-surat": 21,
+      "surat-ke": 92,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/092.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ad-Duha",
+      "artinya": {
+        "arab": "الضحى",
+        "english": "The Morning Hours",
+        "indonesia": "Duha"
+      },
+      "jumlah-surat": 11,
+      "surat-ke": 93,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/093.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Ash-Sharh",
+      "artinya": {
+        "arab": "الشرح",
+        "english": "The Consolation",
+        "indonesia": "Lapang"
+      },
+      "jumlah-surat": 8,
+      "surat-ke": 94,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/094.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "At-Tin",
+      "artinya": {
+        "arab": "التين",
+        "english": "The Fig",
+        "indonesia": "Buah Tin"
+      },
+      "jumlah-surat": 8,
+      "surat-ke": 95,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/095.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Alaq",
+      "artinya": {
+        "arab": "العلق",
+        "english": "The Clot",
+        "indonesia": "Segumpal Darah"
+      },
+      "jumlah-surat": 19,
+      "surat-ke": 96,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/096.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Qadr",
+      "artinya": {
+        "arab": "القدر",
+        "english": "The Power, Fate",
+        "indonesia": "Kemuliaan"
+      },
+      "jumlah-surat": 5,
+      "surat-ke": 97,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/097.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Bayinah",
+      "artinya": {
+        "arab": "البينة",
+        "english": "The Evidence",
+        "indonesia": "Bukti Nyata"
+      },
+      "jumlah-surat": 8,
+      "surat-ke": 98,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/098.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Az-Zalzalah",
+      "artinya": {
+        "arab": "الزلزلة",
+        "english": "The Earthquake",
+        "indonesia": "Guncangan"
+      },
+      "jumlah-surat": 8,
+      "surat-ke": 99,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/099.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Adiyat",
+      "artinya": {
+        "arab": "العاديات",
+        "english": "The Chargers",
+        "indonesia": "Kuda Yang Berlari Kencang"
+      },
+      "jumlah-surat": 11,
+      "surat-ke": 100,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/100.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Qariah",
+      "artinya": {
+        "arab": "القارعة",
+        "english": "The Calamity",
+        "indonesia": "Hari Kiamat"
+      },
+      "jumlah-surat": 11,
+      "surat-ke": 101,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/101.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Takathur",
+      "artinya": {
+        "arab": "التكاثر",
+        "english": "Competition",
+        "indonesia": "Bermegah-Megahan"
+      },
+      "jumlah-surat": 8,
+      "surat-ke": 102,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/102.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Asr",
+      "artinya": {
+        "arab": "العصر",
+        "english": "The Declining Day, Epoch",
+        "indonesia": "Asar"
+      },
+      "jumlah-surat": 3,
+      "surat-ke": 103,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/103.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Humazah",
+      "artinya": {
+        "arab": "الهمزة",
+        "english": "The Traducer",
+        "indonesia": "Pengumpat"
+      },
+      "jumlah-surat": 9,
+      "surat-ke": 104,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/104.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Fil",
+      "artinya": {
+        "arab": "الفيل",
+        "english": "The Elephant",
+        "indonesia": "Gajah"
+      },
+      "jumlah-surat": 5,
+      "surat-ke": 105,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/105.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Quraish",
+      "artinya": {
+        "arab": "قريش",
+        "english": "Quraysh",
+        "indonesia": "Quraisy"
+      },
+      "jumlah-surat": 4,
+      "surat-ke": 106,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/106.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ma'un",
+      "artinya": {
+        "arab": "الماعون",
+        "english": "Almsgiving",
+        "indonesia": "Barang Yang Berguna"
+      },
+      "jumlah-surat": 7,
+      "surat-ke": 107,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/107.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Kauthar",
+      "artinya": {
+        "arab": "الكوثر",
+        "english": "Abundance",
+        "indonesia": "Pemberian Yang Banyak"
+      },
+      "jumlah-surat": 3,
+      "surat-ke": 108,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/108.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Kafirun",
+      "artinya": {
+        "arab": "الكافرون",
+        "english": "The Disbelievers",
+        "indonesia": "Orang-Orang kafir"
+      },
+      "jumlah-surat": 6,
+      "surat-ke": 109,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/109.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Nasr",
+      "artinya": {
+        "arab": "النصر",
+        "english": "Divine Support",
+        "indonesia": "Pertolongan"
+      },
+      "jumlah-surat": 3,
+      "surat-ke": 110,
+      "diturunkan-di": "Madinah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/110.mp3",
+      "jenis": "Madaniyah"
+    },
+    {
+      "name": "Al-Masad",
+      "artinya": {
+        "arab": "المسد",
+        "english": "The Palm Fibre",
+        "indonesia": "Api Yang Bergejolak"
+      },
+      "jumlah-surat": 5,
+      "surat-ke": 111,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/111.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Ikhlas",
+      "artinya": {
+        "arab": "الإخلاص",
+        "english": "Sincerity",
+        "indonesia": "Ikhlas"
+      },
+      "jumlah-surat": 4,
+      "surat-ke": 112,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/112.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "Al-Falaq",
+      "artinya": {
+        "arab": "الفلق",
+        "english": "The Dawn",
+        "indonesia": "Subuh"
+      },
+      "jumlah-surat": 5,
+      "surat-ke": 113,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/113.mp3",
+      "jenis": "Makkiyah"
+    },
+    {
+      "name": "An-Nas",
+      "artinya": {
+        "arab": "الناس",
+        "english": "Mankind",
+        "indonesia": "Manusia"
+      },
+      "jumlah-surat": 6,
+      "surat-ke": 114,
+      "diturunkan-di": "Makkah",
+      "audio": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/114.mp3",
+      "jenis": "Makkiyah"
+    }
+  ]
+}

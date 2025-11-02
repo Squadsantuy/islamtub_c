@@ -1,0 +1,125 @@
+{
+    "judul": "Akhlaq dan Adab",
+    "data": [
+        {
+            "id": 1,
+            "arab": "إِنَّمَا بُعِثْتُ لِأُتَمِّمَ مَكَارِمَ الْأَخْلَاقِ.",
+            "arti": "Sesungguhnya aku diutus untuk menyempurnakan akhlak yang mulia.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 2,
+            "arab": "لَا تُؤْمِنُوا حَتَّى تَحَابُّوا.",
+            "arti": "Kalian tidak akan beriman hingga kalian saling mencintai.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 3,
+            "arab": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِن لِّسَانِهِ وَيَدِهِ.",
+            "arti": "Seorang Muslim adalah orang yang kaum Muslimin lainnya selamat dari lisan dan tangannya.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 4,
+            "arab": "إِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ.",
+            "arti": "Sesungguhnya Allah mencintai orang-orang yang bertaqwa.",
+            "riwayat": "HR. Al-Baihaqi"
+        },
+        {
+            "id": 5,
+            "arab": "إِنَّ أَحَبَّكُمْ إِلَيَّ وَأَقْرَبِكُمْ مِنِّي مَجْلِسًا يَوْمَ الْقِيَامَةِ أَحَاسِنُكُمْ أَخْلَاقًا.",
+            "arti": "Orang yang paling aku cintai dan paling dekat denganku di hari kiamat adalah yang paling baik akhlaknya.",
+            "riwayat": "HR. Abu Dawud"
+        },
+        {
+            "id": 6,
+            "arab": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ.",
+            "arti": "Tidak beriman salah seorang di antara kalian hingga ia mencintai saudaranya seperti ia mencintai dirinya sendiri.",
+            "riwayat": "HR. Bukhari dan Muslim"
+        },
+        {
+            "id": 7,
+            "arab": "إِنَّ اللَّهَ جَمِيلٌ يُحِبُّ الْجَمَالَ.",
+            "arti": "Sesungguhnya Allah itu indah dan mencintai keindahan.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 8,
+            "arab": "مَنْ لا يُؤْثِرُ النَّاسَ، لا يُؤْثِرْهُ اللَّهُ.",
+            "arti": "Barangsiapa tidak memedulikan orang lain, maka Allah tidak memedulikannya.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 9,
+            "arab": "إِنَّ الْمُؤْمِنَ مَنْ أَمَنَهُ النَّاسُ عَلَى أَنفُسِهِمْ.",
+            "arti": "Seorang Mukmin adalah orang yang aman bagi orang lain.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 10,
+            "arab": "الْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ.",
+            "arti": "Sebuah kata yang baik adalah sedekah.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 11,
+            "arab": "إِنَّ اللَّهَ يُحِبُّ إِذَا عَمَلَ أَحَدُكُمْ عَمَلًا أَنْ يُتْقِنَهُ.",
+            "arti": "Sesungguhnya Allah mencintai jika seseorang di antara kalian melakukan suatu amal, ia melakukannya dengan baik.",
+            "riwayat": "HR. Al-Baihaqi"
+        },
+        {
+            "id": 12,
+            "arab": "لَا يَفْرَكْ مُؤْمِنٌ مُؤْمِنَةً، إِن كَرِهَ مِنْهَا خُلُقًا رَضِيَ مِنْهَا آخَرَ.",
+            "arti": "Seorang Mukmin tidak boleh membenci Mukminah. Jika ia membenci satu akhlak darinya, ia akan ridha dengan akhlak yang lain.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 13,
+            "arab": "الْمُؤْمِنُ مَنْ سَلِمَ الْمُسْلِمُونَ مِن لِّسَانِهِ وَيَدِهِ.",
+            "arti": "Seorang Muslim adalah orang yang kaum Muslimin lainnya selamat dari lisan dan tangannya.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 14,
+            "arab": "إِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ.",
+            "arti": "Sesungguhnya Allah mencintai orang-orang yang bertaqwa.",
+            "riwayat": "HR. Al-Baihaqi"
+        },
+        {
+            "id": 15,
+            "arab": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ طَرِيقًا إِلَى الْجَنَّةِ.",
+            "arti": "Barangsiapa menempuh suatu jalan untuk mencari ilmu, Allah akan memudahkan baginya jalan menuju surga.",
+            "riwayat": "HR. Muslim"
+        },
+        {
+            "id": 16,
+            "arab": "إِنَّ اللَّهَ يُعْطِي الْعَالِمَ عِزًّا لَمْ يُعْطِهِ لِلْمُلُوكِ.",
+            "arti": "Sesungguhnya Allah memberikan kemuliaan kepada para ulama yang tidak diberikan kepada para raja.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 17,
+            "arab": "الطَّلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ.",
+            "arti": "Menuntut ilmu adalah kewajiban bagi setiap Muslim.",
+            "riwayat": "HR. Ibn Majah"
+        },
+        {
+            "id": 18,
+            "arab": "مَنْ يَسْتَغْفِرْ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ، كَانَ لَهُ كُلَّ مُؤْمِنٍ أَجْرًا.",
+            "arti": "Barangsiapa beristighfar untuk kaum Mukminin dan Mukminat, maka baginya setiap Mukmin satu pahala.",
+            "riwayat": "HR. Ahmad"
+        },
+        {
+            "id": 19,
+            "arab": "مَنْ أَرَادَ اللّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ.",
+            "arti": "Barangsiapa yang Allah kehendaki kebaikan padanya, Allah akan menjadikannya faham dalam agama.",
+            "riwayat": "HR. Bukhari"
+        },
+        {
+            "id": 20,
+            "arab": "الْعُلَمَاءُ وَرَثَةُ الْأَنْبِيَاءِ.",
+            "arti": "Para ulama adalah pewaris para nabi.",
+            "riwayat": "HR. Abu Dawud"
+        }
+    ]
+}

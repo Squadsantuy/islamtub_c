@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "nama": "akhlaq-dan-adab",
+            "judul": "Hadist Akhlaq Dan Adab",
+            "lokasi-data": "assets/api/hadist/akhlaq-dan-adab.json"
+        },
+        {
+            "nama": "doa-dan-ibadah",
+            "judul": "Hadist Doa dan Ibadah",
+            "lokasi-data": "assets/api/hadist/doa-dan-ibadah.json"
+        },
+        {
+            "nama": "pendidikan-dan-pengajaran",
+            "judul": "Hadist Pendidikan Dan Pengajaran",
+            "lokasi-data": "assets/api/hadist/pendidikan-dan-pengajaran.json"
+        },
+        {
+            "nama": "sikap-terhadap-sesama",
+            "judul": "Hadist Sikap Terhadap Sesama",
+            "lokasi-data": "assets/api/hadist/sikap-terhadap-sesama.json"
+        },
+        {
+            "nama": "ahklaq-mulia-dan-etika",
+            "judul": "Hadist Ahklaq Mulia Dan Etika",
+            "lokasi-data": "assets/api/hadist/ahklaq-mulia-dan-etika.json"
+        }
+    ]
+}

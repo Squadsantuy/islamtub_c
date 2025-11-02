@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no shrink-to-fit=no">
+  <title>Irsyadut Thulab | Do'a-Do'a</title>
+  <link rel="shortcut icon" href="../assets/images/do'a.ico" />
+  <link rel="stylesheet" href="../assets/css/core/libs.min.css" />
+
+  <link rel="stylesheet" href="../assets/css/hope-ui.min.css?v=2.0.0" />
+  <link rel="stylesheet" href="../assets/css/custom.min.css?v=2.0.0" />
+  <link rel="stylesheet" href="../assets/css/dark.min.css" />
+  <link rel="stylesheet" href="../assets/css/customizer.min.css" />
+  <link rel="stylesheet" href="../pages/style/custom.css" />
+  <script defer src="../assets/api/cdn.min.js"></script>
+</head>
+
+<body x-data x-init="$store.backController.init()" class="  ">
+  <div id="loading">
+    <div class="loader simple-loader">
+      <div class="loader-body"></div>
+    </div>
+  </div>
+  <aside id="body-sidebar" class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all">
+    <script type="module" src="../components/body-sidebar.js"></script>
+  </aside>
+  <main class="main-content">
+    <div id="main-cs-btn" class="position-relative iq-banner">
+      <script src="../components/main-cs-btn.js"></script>
+      <nav id="body-nav" class="nav navbar navbar-expand-lg navbar-light iq-navbar sticky-top">
+        <script type="module" src="../components/body-nav.js"></script>
+      </nav>
+      <div class="iq-navbar-header" style="height: 150px">
+        <div class="container-fluid iq-container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="flex-wrap text-center">
+                <div class="d-flex justify-content-center gap-2 align-items-center">
+                  <img src="../assets/icon/doa.png" height="40px" alt="" />
+                  <h2 class="mx-lg-5 fs-lg-1"><b>Doa-Doa</b></h2>
+                  <img src="../assets/icon/doa.png" height="40px" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="iq-header-img">
+          <img src="../assets/images/banner/do'a.jpg" alt="header"
+            class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX" />
+        </div>
+      </div>
+      <div class="p-2 card mb-0">
+        <div class="col-lg-12">
+          <div class="card p-3 text-center" id="doaList" x-data="loadDoa()" x-init="fetchData()" style="z-index: 0;">
+            <h3>Loading....</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="body-footer" class="footer">
+      <script src="../components/body-footer.js"></script>
+    </footer>
+  </main>
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('loadDoa', () => ({
+        list: [],
+        async fetchData() {
+          const res = await fetch('../assets/api/doa.json');
+          const json = await res.json();
+          this.list = json;
+          this.render();
+        },
+        render() {
+          const target = document.getElementById('doaList');
+          target.innerHTML = "";
+
+          this.list.forEach(kategori => {
+            let listItems = '';
+            kategori.data.forEach((doa, i) => {
+              listItems += `
+                <a class="list-group-item list-group-item-action"
+                   href="./doa/detail.html?category=${encodeURIComponent(kategori.name)}&index=${i}">
+                  ${doa.title}
+                </a>`;
+            });
+
+            target.insertAdjacentHTML('beforeend', `
+              <div class="card p-3 text-center">
+                <h2 class="fw-bold p-3">${kategori.name}</h2>
+                <ul class="list-group list-group-flush">
+                  ${listItems}
+                </ul>
+              </div>
+            `);
+          });
+        }
+      }))
+    })
+  </script>
+
+  <script src="../assets/js/core/libs.min.js"></script>
+  <script src="../assets/js/core/external.min.js"></script>
+
+  <script src="../assets/js/hope-ui.js" defer></script>
+  <script type="module" src="./01-button-contoller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no shrink-to-fit=no">
+    <title>Irsyadut Thulab | Akhlaq Dan Adab</title>
+    <link rel="shortcut icon" href="../../assets/icon/hadits.png" />
+    <link rel="stylesheet" href="../../assets/css/core/libs.min.css" />
+
+    <link rel="stylesheet" href="../../assets/css/hope-ui.min.css?v=2.0.0" />
+    <link rel="stylesheet" href="../../assets/css/custom.min.css?v=2.0.0" />
+    <link rel="stylesheet" href="../../assets/css/dark.min.css" />
+    <link rel="stylesheet" href="../../assets/css/customizer.min.css" />
+    <script defer src="../../assets/api/cdn.min.js"></script>
+</head>
+<style>
+</style>
+
+<body x-data x-init="$store.backController.init()" class="  ">
+    <div id="loading">
+        <div class="loader simple-loader">
+            <div class="loader-body"></div>
+        </div>
+    </div>
+    <aside id="body-sidebar" class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all">
+        <script type="module" src="../components/body-sidebar.js"></script>
+    </aside>
+    <main class="main-content" x-data="detailHadist()" x-init="init()">
+        <div id="main-cs-btn" class="position-relative iq-banner">
+            <script src="../components/main-cs-btn.js"></script>
+            <nav id="body-nav" class="nav navbar navbar-expand-lg navbar-light iq-navbar sticky-top">
+                <script type="module" src="../components/body-nav.js"></script>
+            </nav>
+            <div class="iq-navbar-header" style="height: 200px;">
+                <div class="container-fluid iq-container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="flex-wrap  text-dark text-center">
+                                <div class="d-flex justify-content-center gap-2 align-items-center">
+                                    <img src="../../assets/icon/hadits.png" height="40px" alt="" />
+                                    <h2 class="mx-lg-5 fs-lg-1 text-white" x-text="hadist.judul"></h2>
+                                    <img src="../../assets/icon/hadits.png" height="40px" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="iq-header-img">
+                    <img src="../../assets/images/banner/wudhu.png" alt="header"
+                        class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX" />
+                </div>
+            </div>
+            <div class="container mt-n5 mb-0 card">
+                <template x-for="hadist in hadist.data" :key="hadist.id">
+                    <div class="p-3 text-dark">
+                        <h5 class=" text-center fw-bold mb-3" x-text="`hadist ke: ${hadist['id']}`">
+                        </h5>
+                        <h4 class=" text-end arabic-font mb-3" x-text="hadist['arab']">
+                        </h4>
+                        <h6 class=" text-start mb-4 mb3" x-text="`${hadist['arti']}`"></h6>
+                        <small class="text-center" x-text="hadist['riwayat']"></small>
+                        <div class="border-bottom border-2 mb-3"></div>
+                    </div>
+                </template>
+            </div>
+        </div>
+        </div>
+        <footer id="body-footer" class="footer">
+            <script src="../components/body-footer.js"></script>
+        </footer>
+    </main>
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('detailHadist', () => ({
+                loading: false,
+                hadist: {
+                    name: '',
+                    data: [],
+                },
+                async init() {
+                    const nama = new URLSearchParams(location.search).get('hadist');
+                    await this.initSurat(nama);
+                    console.log(nama);
+                },
+                async initSurat(nama) {
+                    this.loading = true;
+                    const res = await fetch(`../../assets/api/hadist/${nama}.json`);
+                    const json = await res.json();
+                    this.hadist = json;
+                }
+            }));
+        });
+    </script>
+    <script src="../../assets/js/core/libs.min.js"></script>
+    <script src="../../assets/js/core/external.min.js"></script>
+
+    <script src="../../assets/js/hope-ui.js" defer></script>
+    <script type="module" src="../01-button-contoller.js"></script>
+</body>
+
+</html>
