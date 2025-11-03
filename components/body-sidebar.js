@@ -10,7 +10,7 @@ body_sidebar.insertAdjacentHTML('beforeend', `
             <img src="../assets/logo.png" height="40px" alt="" />
           </div>
         </div>
-        <h5 class="logo-title">Irsyadut Thulab</h5>
+        <h5 class="logo-title">ISLAMIAH</h5>
       </div>
       <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
         <i class="icon">
