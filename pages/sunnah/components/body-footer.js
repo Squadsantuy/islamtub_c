@@ -4,13 +4,13 @@ body_footer.insertAdjacentHTML('afterbegin', `
         <ul class="left-panel list-inline mb-0 p-0">
           <li class="list-inline-item">
             <img src="../../../assets/logo altie putih.png" height="20px" alt="" />
-            <a href="https://smk-alittihad.sch.id/">SMKS Al Ittihad</a>
+            <a href="https://www.fakta.blue/">FAKTA.BLUE</a>
           </li>
         </ul>
         <div class="right-panel">
           Copyright ©
           ${new Date().getFullYear()}
-          SMK Al-Ittihad. by <a href="./dashboard.html">TEFATIE</a>.
+          ISLAMIAH. by <a href="./dashboard.html">fakta.blue</a>.
         </div>
       </div>
     `);
