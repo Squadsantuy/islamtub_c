@@ -11,7 +11,7 @@ body_nav.insertAdjacentHTML('beforeend', `
                 <img src="../../../assets/logo.png" height="40px" alt="" />
               </div>
             </div>
-            <h4 class="logo-title irsyad">Irsyadut Thulab</h4>
+            <h4 class="logo-title irsyad">ISLAMIAH</h4>
           </a>
           <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
             <i class="icon">
