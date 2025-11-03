@@ -5,7 +5,7 @@ main_cs_btn.insertAdjacentHTML('afterbegin', `
           <button id="scrollToTop" class="scroll-to-top btn btn-sm btn-primary z-index-5 position-fixed"
         style="display: none; bottom: 60px; right:20px; z-index: 999;">↑</button>
       <a class="btn btn-primary btn-sm position-fixed text-light px-2 mt-2"
-        style="bottom: 20px;right: 20px; z-index: 1000;" href="https://wa.me/6285938594449" data-bs-toggle="tooltip"
+        style="bottom: 20px;right: 20px; z-index: 1000;" href="https://wa.me/6289637474994" data-bs-toggle="tooltip"
         data-bs-placement="right" title="Hubungi Kami">
         <svg viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" class="icon-20" xmlns="http://www.w3.org/2000/svg"
           fill="#000000">
