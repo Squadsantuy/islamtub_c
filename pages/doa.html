@@ -19,35 +19,7 @@
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7183187126446600" 
     crossorigin="anonymous">
 </scrip>
-  <style>
-      /* Ini akan mengganti background semua elemen .card 
-         di website Anda dengan gaya gradien yang Anda inginkan.
-      */
-      .card {
-         /* Ini adalah 3 lapisan background dari kode Anda */
-         background-color: rgb(245, 245, 245);
-         background-image: 
-            radial-gradient(100% 100% at 100% 0%, rgb(169, 226, 225) 0%, rgba(169, 226, 225, 0) 100%),
-            radial-gradient(100% 100% at 0% 0%, rgb(217, 236, 203) 0%, rgba(217, 236, 203, 0) 100%);
-         
-         /* !important diperlukan untuk menimpa gaya default */
-         background-image: -webkit-radial-gradient(100% 100% at 100% 0%, rgb(169, 226, 225) 0%, rgba(169, 226, 225, 0) 100%), 
-                           -webkit-radial-gradient(100% 100% at 0% 0%, rgb(217, 236, 203) 0%, rgba(217, 236, 203, 0) 100%);
-         
-         /* Anda mungkin juga ingin menyamakan lengkungan sudutnya */
-         border-radius: 24px !important; 
-      }
-
-      /* Ini akan mengganti background body utama
-         agar serasi dengan card gradien di atas.
-      */
-      body {
-         background-color: #f8f3e6 !important; /* Warna abu-abu netral */
-      }
-   </style>
-  
 </head>
-
 <body x-data x-init="$store.backController.init()" class="  ">
   <div id="loading">
     <div class="loader simple-loader">
