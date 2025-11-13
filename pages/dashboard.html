@@ -673,23 +673,5 @@
 
    <script src="../assets/js/hope-ui.js" defer></script>
    <script type="module" src="./01-button-contoller.js"></script>
-<script>
-  // Cek apakah browser mendukung Service Worker
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      // Daftarkan file sw.js Anda
-      navigator.serviceWorker.register('/sw.js')
-        .then(registration => {
-          console.log('ServiceWorker berhasil didaftarkan: ', registration);
-        })
-        .catch(error => {
-          console.log('Registrasi ServiceWorker gagal: ', error);
-        });
-    });
-  }
-</script>
-</body>
-</html>
-
 </body>
 </html>
