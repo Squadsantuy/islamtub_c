@@ -1,5 +1,5 @@
-/* prayer-widget.js */
-const defaultLoc = { city: "Tuban", lat: -6.8976, lon: 112.0649 };
+// Konfigurasi Default (Jika GPS mati)
+const defaultLoc = { city: "Jakarta", lat: -6.2088, lon: 106.8456 };
 
 async function initPrayerWidget() {
   if (navigator.geolocation) {
@@ -15,7 +15,7 @@ async function initPrayerWidget() {
 
 function useDefault() {
   getPrayerTimes(defaultLoc.lat, defaultLoc.lon);
-  document.getElementById('cityDisplay').innerText = defaultLoc.city.toUpperCase();
+  document.getElementById('cityDisplay').innerText = defaultLoc.city;
 }
 
 async function getCityName(lat, lon) {
@@ -32,9 +32,14 @@ async function getPrayerTimes(lat, lon) {
     const r = await fetch(`https://api.aladhan.com/v1/timings?latitude=${lat}&longitude=${lon}&method=11`);
     const d = await r.json();
     const t = d.data.timings;
+    const dt = d.data.date;
+
+    document.getElementById('hijriPart').innerText = `${dt.hijri.day} ${dt.hijri.month.en} ${dt.hijri.year}`;
+    document.getElementById('gregPart').innerText = dt.readable;
+
     renderPrayers(t);
     startClock(t);
-  } catch (e) { console.error("Gagal mengambil jadwal sholat:", e); }
+  } catch (e) { console.error("API Error:", e); }
 }
 
 function renderPrayers(t) {
@@ -42,15 +47,12 @@ function renderPrayers(t) {
     {id:'Fajr', n:'Subuh'}, {id:'Dhuhr', n:'Dzuhur'}, 
     {id:'Asr', n:'Ashar'}, {id:'Maghrib', n:'Maghrib'}, {id:'Isha', n:'Isya'}
   ];
-  const container = document.getElementById('timesContainer');
-  if (container) {
-    container.innerHTML = list.map(p => `
-      <div class="pr-box" id="box-${p.id}">
-        <span class="pr-name">${p.n}</span>
-        <span class="pr-time">${t[p.id]}</span>
-      </div>
-    `).join('');
-  }
+  document.getElementById('timesContainer').innerHTML = list.map(p => `
+    <div class="pr-box" id="box-${p.id}">
+      <span class="pr-name">${p.n}</span>
+      <span class="pr-time">${t[p.id]}</span>
+    </div>
+  `).join('');
 }
 
 function startClock(t) {
@@ -61,11 +63,13 @@ function startClock(t) {
 
   setInterval(() => {
     const now = new Date();
-    let next = null; let diff = Infinity;
+    let next = null;
+    let diff = Infinity;
 
     for (let p of pMap) {
       const [h, m] = t[p.k].split(':').map(Number);
-      const target = new Date(); target.setHours(h, m, 0, 0);
+      const target = new Date();
+      target.setHours(h, m, 0, 0);
       let d = target - now;
       if (d > 0 && d < diff) { diff = d; next = p; }
     }
@@ -91,4 +95,4 @@ function startClock(t) {
   }, 1000);
 }
 
-document.addEventListener('DOMContentLoaded', initPrayerWidget);
+initPrayerWidget();
