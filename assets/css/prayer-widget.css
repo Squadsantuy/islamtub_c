@@ -1,95 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
 .pr-banner {
-  background: var(--color-accent, #a4634d);
-  background: linear-gradient(135deg, var(--color-accent, #a4634d) 0%, #181a20 120%);
-  border-radius: 12px;
-  padding: 15px 12px;
+  background: #a4634d;
+  background: linear-gradient(135deg, #a4634d 0%, #181a20 120%);
+  border-radius: 20px;
+  /* Kurangi padding samping (20px -> 12px) agar konten punya ruang lebih */
+  padding: 15px 12px; 
   color: #fff;
   font-family: 'Poppins', sans-serif;
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  /* JARAK KE WIDGET BERIKUTNYA */
-  margin-bottom: 45px; 
+  margin-bottom: 25px;
+  /* Memastikan banner mengambil lebar maksimal */
+  width: 100%; 
 }
 
-/* Header Area */
 .pr-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 18px;
+  align-items: center; /* Center agar lebih rapi saat teks panjang */
+  margin-bottom: 15px;
   border-bottom: 1px solid rgba(255,255,255,0.15);
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
 
-.pr-info { display: flex; flex-direction: column; gap: 0px; }
+.pr-info { 
+  display: flex; 
+  flex-direction: column; 
+  flex: 1; /* Mengambil sisa ruang */
+  min-width: 0; /* Mencegah overflow */
+}
 
-/* LOKASI KECIL */
 .pr-location {
-  font-size: 0.75rem;
-  font-weight: 400;
+  font-size: 0.8rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 5px;
-  opacity: 0.8;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.pr-location svg { width: 12px; height: 12px; }
-
-/* TANGGAL DINAMIS (HIJRIAH | MASEHI) */
-.pr-date-wrapper { 
-  font-size: 1.0rem;
-  font-weight: 600;
+  gap: 4px;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.pr-sep { margin: 0 6px; opacity: 0.4; font-weight: 300; }
-.pr-greg { font-size: 0.95rem; font-weight: 500; opacity: 0.85; }
 
-/* Countdown Area */
-.pr-countdown-box { text-align: right; min-width: 100px; }
-.pr-next-label { font-size: 0.7rem; opacity: 0.75; display: block; margin-bottom: 2px; }
+/* KUNCI: Membuat timer tidak memakan tempat terlalu banyak */
+.pr-countdown-box { 
+  text-align: right; 
+  margin-left: 10px;
+  flex-shrink: 0; /* Timer tidak akan mengecil */
+}
+
 .pr-timer { 
-  font-size: 1.4rem; 
-  font-weight: 700; 
-  line-height: 1; 
-  letter-spacing: 0.5px; 
+  font-size: 1.4rem; /* Sedikit dikecilkan dari 1.8rem agar tidak tabrakan */
+  font-weight: 800; 
+  line-height: 1;
 }
 
-/* TIMES GRID: TETAP SATU BARIS */
-.pr-times {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  width: 100%;
+.pr-times { 
+  display: flex; 
+  justify-content: space-between; 
+  /* Gunakan gap kecil agar box sholat bisa melebar */
+  gap: 4px; 
 }
 
 .pr-box {
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 10px;
-  padding: 12px 2px;
-  text-align: center;
   flex: 1;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba(255,255,255,0.05);
-  min-width: 0;
+  padding: 8px 2px; /* Dikecilkan paddingnya */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
 }
 
-.pr-name {
-  display: block;
-  font-size: 0.65rem;
-  font-weight: 500;
-  margin-bottom: 4px;
-  text-transform: uppercase;
-  opacity: 0.7;
-}
-
-.pr-time {
-  display: block;
-  font-size: 0.95rem;
-  font-weight: 700;
+.pr-time { 
+  font-size: 0.85rem; /* Ukuran waktu sholat */
 }
 
 /* Active Highlight (Menuju Shalat) */
