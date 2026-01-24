@@ -5,63 +5,96 @@
   background: #a4634d;
   background: linear-gradient(135deg, #a4634d 0%, #181a20 120%);
   border-radius: 24px;
-  padding: 18px 20px;
+  padding: 20px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  margin-bottom: 20px; 
+  margin-bottom: 25px; 
 }
 
 .pr-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 15px;
+  align-items: center; /* Sejajar di tengah secara vertikal */
+  margin-bottom: 20px;
   border-bottom: 1px solid rgba(255,255,255,0.15);
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
-.pr-info { display: flex; flex-direction: column; }
-
 .pr-location {
-  font-size: 0.7rem;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 5px;
-  opacity: 0.8;
+  gap: 6px;
+  letter-spacing: 1px;
+}
+
+.pr-location svg { width: 16px; height: 16px; opacity: 0.9; }
+
+.pr-countdown-box { text-align: right; }
+
+.pr-next-label { 
+  font-size: 0.75rem; 
+  opacity: 0.8; 
+  display: block; 
+  margin-bottom: 2px;
   text-transform: uppercase;
 }
 
-.pr-location svg { width: 12px; height: 12px; }
+.pr-timer { 
+  font-size: 1.8rem; /* Ukuran diperbesar agar jelas */
+  font-weight: 800; 
+  line-height: 1; 
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
 
-.pr-date-wrapper { font-size: 1rem; font-weight: 700; white-space: nowrap; }
-.pr-sep { margin: 0 5px; opacity: 0.4; }
-.pr-greg { font-size: 0.85rem; font-weight: 500; opacity: 0.85; }
-
-.pr-countdown-box { text-align: right; }
-.pr-next-label { font-size: 0.65rem; opacity: 0.75; display: block; }
-.pr-timer { font-size: 1.2rem; font-weight: 700; line-height: 1; }
-
-.pr-times { display: flex; justify-content: space-between; gap: 5px; width: 100%; }
+.pr-times { 
+  display: flex; 
+  justify-content: space-between; 
+  gap: 6px; 
+  width: 100%; 
+}
 
 .pr-box {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  padding: 10px 2px;
+  padding: 12px 2px;
   text-align: center;
   flex: 1;
   border: 1px solid rgba(255,255,255,0.05);
+  min-width: 0;
 }
 
-.pr-name { display: block; font-size: 0.55rem; font-weight: 500; margin-bottom: 2px; text-transform: uppercase; opacity: 0.7; }
-.pr-time { display: block; font-size: 0.8rem; font-weight: 700; }
+.pr-name { 
+  display: block; 
+  font-size: 0.6rem; 
+  font-weight: 600; 
+  margin-bottom: 4px; 
+  text-transform: uppercase; 
+  opacity: 0.7; 
+}
 
+.pr-time { 
+  display: block; 
+  font-size: 0.9rem; 
+  font-weight: 700; 
+}
+
+/* Highlight Sholat yang akan datang */
 .pr-box.active {
   background: #ffffff !important;
   color: #a4634d !important;
-  transform: translateY(-3px);
-  transition: all 0.3s ease;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+.pr-box.active .pr-name { opacity: 1; }
+
+/* Penyesuaian Mobile kecil */
+@media (max-width: 375px) {
+  .pr-timer { font-size: 1.5rem; }
+  .pr-time { font-size: 0.8rem; }
 }
