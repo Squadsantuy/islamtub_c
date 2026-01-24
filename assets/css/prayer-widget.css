@@ -1,100 +1,113 @@
-/* prayer-widget.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 .pr-banner {
-  background: #a4634d;
-  background: linear-gradient(135deg, #a4634d 0%, #181a20 120%);
-  border-radius: 24px;
-  padding: 20px;
+  background: var(--color-accent, #a4634d);
+  background: linear-gradient(135deg, var(--color-accent, #a4634d) 0%, #181a20 120%);
+  border-radius: 12px;
+  padding: 18px 20px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  margin-bottom: 25px; 
+  /* JARAK KE WIDGET BERIKUTNYA */
+  margin-bottom: 45px; 
 }
 
+/* Header Area */
 .pr-header {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Sejajar di tengah secara vertikal */
-  margin-bottom: 20px;
+  align-items: flex-end;
+  margin-bottom: 18px;
   border-bottom: 1px solid rgba(255,255,255,0.15);
-  padding-bottom: 15px;
+  padding-bottom: 12px;
 }
 
+.pr-info { display: flex; flex-direction: column; gap: 0px; }
+
+/* LOKASI KECIL */
 .pr-location {
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 0.75rem;
+  font-weight: 400;
   display: flex;
   align-items: center;
-  gap: 6px;
-  letter-spacing: 1px;
-}
-
-.pr-location svg { width: 16px; height: 16px; opacity: 0.9; }
-
-.pr-countdown-box { text-align: right; }
-
-.pr-next-label { 
-  font-size: 0.75rem; 
-  opacity: 0.8; 
-  display: block; 
-  margin-bottom: 2px;
+  gap: 5px;
+  opacity: 0.8;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
+.pr-location svg { width: 12px; height: 12px; }
 
+/* TANGGAL DINAMIS (HIJRIAH | MASEHI) */
+.pr-date-wrapper { 
+  font-size: 1.15rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.pr-sep { margin: 0 6px; opacity: 0.4; font-weight: 300; }
+.pr-greg { font-size: 0.95rem; font-weight: 500; opacity: 0.85; }
+
+/* Countdown Area */
+.pr-countdown-box { text-align: right; min-width: 100px; }
+.pr-next-label { font-size: 0.7rem; opacity: 0.75; display: block; margin-bottom: 2px; }
 .pr-timer { 
-  font-size: 1.8rem; /* Ukuran diperbesar agar jelas */
-  font-weight: 800; 
+  font-size: 1.4rem; 
+  font-weight: 700; 
   line-height: 1; 
-  letter-spacing: 1px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  letter-spacing: 0.5px; 
 }
 
-.pr-times { 
-  display: flex; 
-  justify-content: space-between; 
-  gap: 6px; 
-  width: 100%; 
+/* TIMES GRID: TETAP SATU BARIS */
+.pr-times {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
 }
 
 .pr-box {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
   padding: 12px 2px;
   text-align: center;
   flex: 1;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(255,255,255,0.05);
   min-width: 0;
 }
 
-.pr-name { 
-  display: block; 
-  font-size: 0.6rem; 
-  font-weight: 600; 
-  margin-bottom: 4px; 
-  text-transform: uppercase; 
-  opacity: 0.7; 
+.pr-name {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  opacity: 0.7;
 }
 
-.pr-time { 
-  display: block; 
-  font-size: 0.9rem; 
-  font-weight: 700; 
+.pr-time {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
-/* Highlight Sholat yang akan datang */
+/* Active Highlight (Menuju Shalat) */
 .pr-box.active {
   background: #ffffff !important;
-  color: #a4634d !important;
+  color: var(--color-accent, #a4634d) !important;
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  border-color: #fff;
 }
-.pr-box.active .pr-name { opacity: 1; }
+.pr-box.active .pr-name { opacity: 1; font-weight: 700; }
 
-/* Penyesuaian Mobile kecil */
-@media (max-width: 375px) {
-  .pr-timer { font-size: 1.5rem; }
+/* Responsive HP */
+@media (max-width: 480px) {
+  .pr-banner { padding: 15px; margin-bottom: 35px; }
+  .pr-date-wrapper { font-size: 0.95rem; }
+  .pr-greg { font-size: 0.8rem; }
+  .pr-timer { font-size: 1.2rem; }
   .pr-time { font-size: 0.8rem; }
+  .pr-name { font-size: 0.6rem; }
 }
