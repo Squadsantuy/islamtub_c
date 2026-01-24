@@ -41,8 +41,8 @@
 
 /* TANGGAL DINAMIS (HIJRIAH | MASEHI) */
 .pr-date-wrapper { 
-  font-size: 1.15rem;
-  font-weight: 700;
+  font-size: 1.0rem;
+  font-weight: 600;
   white-space: nowrap;
 }
 .pr-sep { margin: 0 6px; opacity: 0.4; font-weight: 300; }
