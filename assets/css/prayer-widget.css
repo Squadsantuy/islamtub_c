@@ -41,12 +41,13 @@
 
 /* TANGGAL DINAMIS (HIJRIAH | MASEHI) */
 .pr-date-wrapper { 
-  font-size: 0.95rem;
+  font-size: 0.95rem; 
   font-weight: 500;
   white-space: nowrap;
+  opacity: 0.85;
 }
-.pr-sep { margin: 0 6px; opacity: 0.4; font-weight: 300; }
-.pr-greg { font-size: 0.95rem; font-weight: 500; opacity: 0.85; }
+.pr-sep { margin: 0 6px; opacity: 0.4;  font-weight: 300; }
+.pr-greg { font-size: inherit; font-weight: inherit; opacity: 1; }
 
 /* Countdown Area */
 .pr-countdown-box { text-align: right; min-width: 100px; }
@@ -105,7 +106,7 @@
 /* Responsive HP */
 @media (max-width: 480px) {
   .pr-banner { padding: 15px; margin-bottom: 35px; }
-  .pr-date-wrapper { font-size: 0.95rem; }
+  .pr-date-wrapper { font-size: 0.8rem; }
   .pr-greg { font-size: 0.8rem; }
   .pr-timer { font-size: 1.2rem; }
   .pr-time { font-size: 0.8rem; }
