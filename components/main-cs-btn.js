@@ -1,69 +1,36 @@
-const main_cs_btn = document.getElementById('main-cs-btn');
-let deferredPrompt;
+const main_cs_btn = document.getElementById('main-cs-btn')
 
-// Masukkan HTML ke DOM
 main_cs_btn.insertAdjacentHTML('afterbegin', `
-  <button id="scrollToTop" class="scroll-to-top btn btn-sm btn-primary z-index-5 position-fixed"
-    style="display: none; bottom: 60px; right: 20px; z-index: 999;">↑</button>
-
-  <a id="pwa-install-btn" class="btn btn-primary btn-sm position-fixed text-light px-2 mt-2"
-    style="display: none; bottom: 20px; right: 20px; z-index: 1000;" 
-    href="javascript:void(0)" 
-    data-bs-toggle="tooltip"
-    data-bs-placement="top" title="Install App">
-    <div class="d-flex align-items-center">
-      <svg viewBox="0 0 24 24" class="icon-20" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px; height:20px;">
-        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-        <polyline points="7 10 12 15 17 10"></polyline>
-        <line x1="12" y1="15" x2="12" y2="3"></line>
-      </svg>
-      <span class="ms-1" style="font-size: 12px; font-weight: 500;">Install App</span>
-    </div>
-  </a>
-`);
-
-const pwaBtn = document.getElementById('pwa-install-btn');
-const scrollBtn = document.getElementById('scrollToTop');
-
-// 2. Logika Deteksi PWA
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Simpan event agar bisa dipicu nanti
-  e.preventDefault();
-  deferredPrompt = e;
   
-  // Tombol hanya akan muncul jika event install tersedia (biasanya saat scroll)
-  handleScrollUI(); 
-});
-
-// 3. Logika Muncul Saat Scroll
-const handleScrollUI = () => {
-  if (window.scrollY > 200 && deferredPrompt) {
-    pwaBtn.style.display = 'block';
-    scrollBtn.style.display = 'block';
-  } else {
-    pwaBtn.style.display = 'none';
-    if (window.scrollY <= 200) scrollBtn.style.display = 'none';
-  }
-};
-
-window.addEventListener('scroll', handleScrollUI);
-
-// 4. Aksi Saat Tombol Diklik
-pwaBtn.addEventListener('click', async () => {
-  if (deferredPrompt) {
-    deferredPrompt.prompt();
-    const { outcome } = await deferredPrompt.userChoice;
-    
-    if (outcome === 'accepted') {
-      console.log('User menerima instalasi');
-      pwaBtn.style.display = 'none';
-    }
-    deferredPrompt = null;
-  }
-});
-
-// Tambahan: Sembunyikan jika aplikasi sudah terinstall
-window.addEventListener('appinstalled', () => {
-  pwaBtn.style.display = 'none';
-  deferredPrompt = null;
-});
+          <button id="scrollToTop" class="scroll-to-top btn btn-sm btn-primary z-index-5 position-fixed"
+        style="display: none; bottom: 60px; right:20px; z-index: 999;">↑</button>
+      <a class="btn btn-primary btn-sm position-fixed text-light px-2 mt-2"
+        style="bottom: 20px;right: 20px; z-index: 1000;" href="https://wa.me/6289637474994" data-bs-toggle="tooltip"
+        data-bs-placement="right" title="Hubungi Kami">
+        <svg viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" class="icon-20" xmlns="http://www.w3.org/2000/svg"
+          fill="#000000">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-miterlimit: 10;
+                  stroke-width: 1.91px;
+                }
+              </style>
+            </defs>
+            <rect class="cls-1" x="6.27" y="5.32" width="11.45" height="15.27" rx="5.73"></rect>
+            <path class="cls-1"
+              d="M17.73,9.14h1.91A2.86,2.86,0,0,1,22.5,12v1.91a2.86,2.86,0,0,1-2.86,2.86H17.73a0,0,0,0,1,0,0V9.14A0,0,0,0,1,17.73,9.14Z">
+            </path>
+            <path class="cls-1"
+              d="M1.5,9.14H3.41A2.86,2.86,0,0,1,6.27,12v1.91a2.86,2.86,0,0,1-2.86,2.86H1.5a0,0,0,0,1,0,0V9.14A0,0,0,0,1,1.5,9.14Z"
+              transform="translate(7.77 25.91) rotate(180)"></path>
+            <path class="cls-1" d="M4.36,9.14h0A7.64,7.64,0,0,1,12,1.5h0a7.64,7.64,0,0,1,7.64,7.64h0"></path>
+            <path class="cls-1" d="M19.64,16.77v1a4.78,4.78,0,0,1-4.78,4.77"></path>
+          </g>
+        </svg></a>
+`)
