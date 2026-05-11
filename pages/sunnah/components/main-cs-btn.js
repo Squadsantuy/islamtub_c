@@ -1,5 +1,3 @@
-const main_cs_btn = document.getElementById('main-cs-btn')
-
 const main_cs_btn = document.getElementById('main-cs-btn');
 let deferredPrompt;
 
